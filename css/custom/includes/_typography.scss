@@ -11,7 +11,7 @@ $light: 300;
 $regular: 400;
 $heavy: 700;
 
-$textShadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+$textShadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 
 html, body {
 	font-family: $body;
@@ -67,4 +67,8 @@ p {
 	&.extraSmall {
 		font-size: .75rem;
 	}
+}
+
+span {
+	background: linear-gradient(transparent 0%, transparent 65%, $secondaryTransparent 65%, $secondaryTransparent 100%);
 }

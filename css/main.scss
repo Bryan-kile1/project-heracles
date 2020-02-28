@@ -62,8 +62,8 @@ ul, ol {
 // Text Selection
 
 ::selection {
-  background: rgba(141, 198, 63, 0.35); /* WebKit/Blink Browsers */
+  background: $secondaryTransparent; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: rgba(141, 198, 63, 0.35); /* Gecko Browsers */
+  background: $secondaryTransparent; /* Gecko Browsers */
 }

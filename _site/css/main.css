@@ -2743,7 +2743,15 @@ p.small { font-size: 1rem; }
 
 p.extraSmall { font-size: .75rem; }
 
+span { background: linear-gradient(transparent 0%, transparent 65%, rgba(119, 200, 174, 0.25) 65%, rgba(119, 200, 174, 0.25) 100%); }
+
 hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px !important; width: 15%; border: 2px solid #77C8AE; }
+
+.sButton { text-decoration: none; color: #F8F8F9 !important; border-radius: 7px; background-color: #77C8AE; padding: 7px 17.5px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); transition: all 0.25s ease; }
+
+.sButton:hover { background-color: #161839; }
+
+.sButton:hover { text-decoration: none; }
 
 .navbar { z-index: 10; background-color: #F8F8F9 !important; font-family: "Open Sans", sans-serif; font-weight: 400; font-size: .85rem; padding: 20px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
 
@@ -2753,17 +2761,17 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 .navbar .nav-link:hover { color: #65A798 !important; }
 
-.navbar a { color: #171738 !important; transition: all 0.15s ease; }
+.navbar a { color: #171738 !important; transition: all 0.25s ease; }
 
 .navbar li { padding-right: 35px; margin-bottom: 0; }
 
 .navbar li:last-child { padding-right: 0px; }
 
-.navbar a { transition: all 0.15s ease; }
+.navbar a { transition: all 0.25s ease; }
 
-.navbar #solutions .dropdown-menu, .navbar #contentAndResources .dropdown-menu, .navbar #aboutUs .dropdown-menu { font-size: .85rem; border-top: 7px solid #65A798; background-color: #3F2A5F; transition: all 0.15s ease; }
+.navbar #solutions .dropdown-menu, .navbar #contentAndResources .dropdown-menu, .navbar #aboutUs .dropdown-menu { font-size: .85rem; border-top: 7px solid #65A798; background-color: #3F2A5F; transition: all 0.25s ease; }
 
-.navbar #solutions .dropdown-menu a, .navbar #contentAndResources .dropdown-menu a, .navbar #aboutUs .dropdown-menu a { color: #F8F8F9 !important; transition: all 0.15s ease; margin: 11.6666666667px 0; position: relative; text-decoration: none; }
+.navbar #solutions .dropdown-menu a, .navbar #contentAndResources .dropdown-menu a, .navbar #aboutUs .dropdown-menu a { color: #F8F8F9 !important; transition: all 0.25s ease; margin: 11.6666666667px 0; position: relative; text-decoration: none; }
 
 .navbar #solutions .dropdown-menu a:before, .navbar #contentAndResources .dropdown-menu a:before, .navbar #aboutUs .dropdown-menu a:before { content: ""; position: absolute; margin-left: 23.3333333333px; width: 33%; height: 2px; bottom: 0; left: 0; background-color: #F8F8F9; visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; }
 
@@ -2775,7 +2783,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 .navbar .dropdown:hover > .dropdown-menu { display: block; }
 
-.navbar #demo, .navbar #login { color: #F8F8F9 !important; border-radius: 35px; background-image: linear-gradient(83deg, #77C8AE 0, #65A798 240%) !important; padding: 5px 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05); }
+.navbar #demo, .navbar #login { color: #F8F8F9 !important; }
 
 @media (max-width: 991.98px) { .navbar #demo, .navbar #login { display: none; } }
 
@@ -2785,7 +2793,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #newsAnnouncement { padding: 11.6666666667px; text-align: center; margin: 0px auto; background: #3F2A5F; background: linear-gradient(90deg, #161839 0%, #3F2A5F 35%, #77C8AE 100%); }
 
-#newsAnnouncement p { padding: 0; margin: 0; color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05); font-size: 14px; }
+#newsAnnouncement p { padding: 0; margin: 0; color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); font-size: 14px; }
 
 #newsAnnouncement a { font-weight: 700; color: #F8F8F9; }
 
@@ -2803,7 +2811,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #posts .postsImgContainer:hover { -webkit-animation: pulse 1s; animation: pulse 1s; }
 
-#posts h2.postsTitle { color: #3F2A5F; transition: all 0.15s ease; }
+#posts h2.postsTitle { color: #3F2A5F; transition: all 0.25s ease; }
 
 #posts h2.postsTitle a:hover { color: #161839; }
 
@@ -2835,7 +2843,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 @media (min-width: 2200px) { #postHero .heroTitle { padding-top: 210px; } }
 
-#postHero .heroTitle h1 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05); font-size: 1rem; }
+#postHero .heroTitle h1 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); font-size: 1rem; }
 
 @media (min-width: 768px) { #postHero .heroTitle h1 { font-size: 1.25rem; } }
 
@@ -4526,9 +4534,19 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 @media (prefers-reduced-motion) { .animated { -webkit-animation: unset !important; animation: unset !important; -webkit-transition: none !important; transition: none !important; } }
 
+#homeAboutSalucro { width: 75%; margin: 0px auto; margin-top: -35px; margin-bottom: 35px; padding: 35px 35px; background-color: #F8F8F9; box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.15); border-radius: 7px; }
+
+#homeSolutions { margin: 0px auto; text-align: center; padding: 35px 0; }
+
+#homeSolutions img { margin-bottom: 35px; }
+
+#homeSolutions h4 { margin-bottom: 17.5px; }
+
+#homeSolutions p { margin-bottom: 35px; }
+
 footer .container-fluid { padding: 0px; text-align: center; }
 
-footer #preFooter { background: url("../../img/home/footerCTABackground.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: left; padding: 105px 0; }
+footer #preFooter { background: url("../../img/home/footerCTABackground.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: left; padding: 70px 0; }
 
 footer #footerTop { margin: 0px auto; text-align: center; padding: 35px 0 11.6666666667px 0; }
 
@@ -4552,17 +4570,30 @@ footer #footerBottom p { color: #CCCCCC; }
 
 .thankYouHero { background: url(../img/contact/thank-you/generalHero.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-bottom: 35px; padding: 105px 0; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
 
-.thankYouHero h1, .thankYouHero p { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05); }
+.thankYouHero h1, .thankYouHero p { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
 
 .thankYouHero p { color: #F8F8F9; }
 
 .recommendedContent { text-align: center; }
 
+#homeHero { background: url("../../img/home/heroBG.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; animation: animatedBackground 60s linear infinite; padding: 140px 0; text-align: center; }
+
+@keyframes animatedBackground { from { background-position: 0 0; }
+  to { background-position: 100% 0; } }
+
+#homeHero h2, #homeHero p { color: #F8F8F9 !important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
+
+#homeHero p { font-weight: 400; }
+
+#homeHero #homeHeroContent p { margin: 35px 0 35px 0; }
+
+#homeHero #homeHeroContent .sButton { text-shadow: none; }
+
 * { margin: 0; padding: 0; }
 
 body, html { color: #CCCCCC; background-color: white; }
 
-a { transition: all 0.15s ease; }
+a { transition: all 0.25s ease; }
 
 img { pointer-events: none; }
 
@@ -4572,8 +4603,8 @@ ul, ol { padding-left: 35px; }
 
 ul li, ol li { margin-bottom: 17.5px; }
 
-::selection { background: rgba(141, 198, 63, 0.35); /* WebKit/Blink Browsers */ }
+::selection { background: rgba(119, 200, 174, 0.25); /* WebKit/Blink Browsers */ }
 
-::-moz-selection { background: rgba(141, 198, 63, 0.35); /* Gecko Browsers */ }
+::-moz-selection { background: rgba(119, 200, 174, 0.25); /* Gecko Browsers */ }
 
 /*# sourceMappingURL=main.css.map */

@@ -5,3 +5,23 @@ hr.salucro {
 	width: 15%;
 	border: 2px solid $secondary;
 }
+
+.sButton {
+
+	text-decoration: none;
+	color: $white !important;
+	border-radius: 7px;
+	background-color: $secondary;
+	padding: $gutter/5 $gutter/2;
+	box-shadow: $boxShadowBig;
+	transition: $transition;
+
+	&:hover {
+		background-color: $primaryDark;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}	
+
+}

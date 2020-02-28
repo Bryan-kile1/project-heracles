@@ -103,12 +103,8 @@
 
 	// Demo Button Style
 	#demo, #login {
+
 		color: $white !important;
-		border-radius: 35px;
-		background-image: linear-gradient(83deg, $secondary 0, $secondaryDark 240%)!important;
-		padding: 5px 15px;
-		box-shadow: $boxShadow;
-		text-shadow: $textShadow;
 
 		@include media-breakpoint-down(md) {
 			display: none;

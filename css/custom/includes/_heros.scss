@@ -1,0 +1,40 @@
+#homeHero {
+
+	@keyframes animatedBackground {
+		from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+
+	background: url("../../img/home/heroBG.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	animation: animatedBackground 60s linear infinite;
+
+
+	padding: $gutter*4 0;
+	text-align: center;
+
+	h2, p {
+		color: $white !important;
+		text-shadow: $textShadow;
+	}
+
+	p {
+		font-weight: $regular;
+	}
+
+	#homeHeroContent {
+
+		p {
+			margin: $gutter 0 $gutter 0;
+		}
+
+		.sButton {
+			text-shadow: none;
+		}
+
+	}
+
+}

@@ -1,0 +1,28 @@
+#homeAboutSalucro {
+	width: 75%;
+	margin: 0px auto;
+	margin-top: -$gutter;
+	margin-bottom: $gutter;
+	padding: $gutter $gutter;
+	background-color: $white;
+	box-shadow: 0px 0px 24px 8px rgba(0,0,0,.15);
+	border-radius: $borderRadius;
+}
+
+#homeSolutions {
+	margin: 0px auto;
+	text-align: center;
+	padding: $gutter 0;
+
+	img {
+		margin-bottom: $gutter;
+	}
+
+	h4 {
+		margin-bottom: $gutter/2;
+	}
+
+	p {
+		margin-bottom: $gutter;
+	}
+}

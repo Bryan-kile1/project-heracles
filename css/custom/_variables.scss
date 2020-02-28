@@ -6,12 +6,15 @@ $white: #F8F8F9;
 
 $primary: #3F2A5F;
 $primaryDark: #161839;
+$primaryTransparent: rgba(63, 42, 95, 0.25);
 
 $secondary: #77C8AE;
 $secondaryDark: #65A798;
+$secondaryTransparent: rgba(119, 200, 174, 0.25);
 
 $tertiary: #E48167;
 $tertiaryDark: #DF6E4E;
+$tertiaryTransparent: rgba (228, 129, 103, 0.25);
 
 // Spacing
 
@@ -19,8 +22,9 @@ $gutter: 35px;
 
 // Random
 
-$transition: all 0.15s ease;
+$transition: all .25s ease;
 $boxShadow: 0 4px 8px 0 rgba(0,0,0,.16);
+$boxShadowBig: 2px 6px 8px 2px rgba(0,0,0,.15);
 $borderRadius: 7px;
 
 /* Forms */
