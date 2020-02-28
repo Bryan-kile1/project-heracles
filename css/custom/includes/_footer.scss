@@ -1,0 +1,45 @@
+footer {
+
+	.container-fluid {
+		padding: 0px;
+		text-align: center;
+	}
+
+	#preFooter {
+		background: url("../../img/home/footerCTABackground.jpg") no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		text-align: left;
+		padding: $gutter*3 0;
+	}
+
+	#footerTop {
+
+		margin: 0px auto;
+		text-align: center;
+		padding: $gutter 0 $gutter/3 0;
+
+		li {
+			list-style: none;
+			display: inline;
+			padding: 0px $gutter;
+			color: $black;
+			font-weight: $light;
+		}
+
+	}
+
+	#footerBottom {
+
+		padding: $gutter/2 $gutter/2;
+		margin: 0px;
+
+		p {
+			color: $grey;
+		}
+
+	}
+
+}

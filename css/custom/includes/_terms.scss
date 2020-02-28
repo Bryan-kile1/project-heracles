@@ -1,0 +1,14 @@
+.terms {
+
+	padding: $gutter 0;
+
+	ol, ul, p {
+		padding-left: $gutter;
+
+		li {
+			margin-bottom: $gutter/2;
+		}
+		
+	}
+
+}

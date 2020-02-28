@@ -1,0 +1,22 @@
+#pager {
+
+	button {
+		margin-left: $gutter/2;
+		margin-right: $gutter/2;
+	}
+
+	.mButton {
+		color: $white !important;
+
+		a {
+			color: $white;
+			
+			&:hover {
+				text-decoration: none;
+			}
+			
+		}
+
+	}
+
+}

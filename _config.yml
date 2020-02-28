@@ -1,0 +1,26 @@
+# Site and SEO settings
+title: Mobivity • Data Driven Everything
+description: Mobivity drives customer spend by capturing transactional data to analyze consumer habits, motivating them to return more frequently.
+email: marketing@mobivity.com
+author: Mobivity
+url: https://www.mobivity.com
+twitter:
+  twitter:username: mobivity
+logo: /img/mobivityLogoGreen.svg
+
+# Social icons
+show_social_icons: true
+github_username: mobivity
+twitter_username: mobivity
+
+# Build settings
+permalink: :year/:month/:title
+sass:
+  sass_dir: css
+
+# plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+paginate: 6
+paginate_path: "/blog/page:num/"

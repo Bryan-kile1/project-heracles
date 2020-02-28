@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:300,400,700&display=swap');
+
+// Body and Heading Font Customizations
+
+$body: 'Open Sans', sans-serif;
+$heading: 'Lato', sans-serif;
+
+// Font Weight Customizations
+
+$light: 300;
+$regular: 400;
+$heavy: 700;
+
+$textShadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+
+html, body {
+	font-family: $body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading;
+	font-weight: $regular;
+
+	span {
+		font-weight: $heavy;
+	}
+}
+
+h1, h2, h3 {
+	margin-bottom: $gutter/2;
+}
+
+h1 {
+	font-size: 2.5rem;
+	color: $black;
+
+	@include media-breakpoint-down(md) {
+		font-size: 1.5rem;
+	}
+}
+
+h2 {
+	font-size: 2rem;
+	color: $primaryDark;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: regular;
+	color: $primary
+}
+
+p {
+	font-size: 1.25rem;
+	font-family: $body;
+	font-weight: $light;
+	color: $black;
+
+	span {
+		font-weight: $heavy;
+	}
+
+	&.small {
+		font-size: 1rem;
+	}
+
+	&.extraSmall {
+		font-size: .75rem;
+	}
+}

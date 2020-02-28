@@ -1,0 +1,24 @@
+// Gradient Backgrounds
+
+// Green > Blue
+background-image: linear-gradient(83deg,$green 0,$blue 240%)!important;
+
+// Blue > Purple
+background-image: linear-gradient(83deg,$blue 0,$purple 240%)!important;
+
+// Purple > Red
+background-image: linear-gradient(83deg,$purple 0,$red 240%)!important;
+
+// Red > Orange
+background-image: linear-gradient(83deg,$red 0,$orange 240%)!important;
+
+// Orange > Yellow
+background-image: linear-gradient(83deg,$orange 0,$yellow 240%)!important;
+
+// Button Styling
+color: $white !important;
+border-radius: 35px;
+background-image: linear-gradient(83deg,$green 0,$greenDark 240%)!important;
+padding: 5px 15px;
+box-shadow: $boxShadow;
+text-shadow: $textShadow;

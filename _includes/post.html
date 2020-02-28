@@ -1,0 +1,22 @@
+<div id="postHero" class="container-fluid">
+	<div class="row">
+		<div class="col-md heroImage">
+			<img src="{{ page.featuredImg }}" alt="">
+		</div>
+		<div class="col-md heroTitle">
+			<h1><span class="align-middle">{{ page.title }}</span></h1>
+			<p class="authorName small">by {{ page.author }}</p>
+			<p class="extraSmall">{{ page.date | date: "%b %-d, %Y" }}</p>
+		</div>
+	</div>
+</div>
+
+<div id="post" class="container">
+	<div class="row">
+		<div class="col-md">
+			<article>
+				{{ content }}
+			</article>
+		</div>
+	</div>
+</div>

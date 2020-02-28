@@ -1,0 +1,21 @@
+<div id="pager" class="container">
+  <div class="row">
+    <div class="col text-center">
+      {% if paginator.previous_page %}
+        {% if paginator.page == 2 %}
+          <button class="mButton"><a href="{{ site.baseurl }}/blog/">Newer Posts</a></button>
+        {% else %}
+          <button class="mButton"><a href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}/">Newer Posts</a></button>
+        {% endif %}
+      {% else %}
+        <button class="mButton disabled"><a>Newer Posts</a></button>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <button class="mButton"><a href="{{ site.baseurl }}/blog/page{{paginator.next_page}}/">Older Posts</a></button>
+      {% else %}
+        <button class="mButton disabled"><a>Older Posts</a></button>
+      {% endif %}
+    </div>
+  </div>
+</div>

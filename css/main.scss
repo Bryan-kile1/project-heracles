@@ -1,0 +1,69 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+@import 'custom/includes/typography';
+@import 'custom/includes/elements';
+@import 'custom/includes/header';
+@import 'custom/includes/posts';
+@import 'custom/includes/pagination';
+@import 'custom/includes/post';
+@import 'custom/includes/archive';
+@import 'custom/includes/animate';
+@import 'custom/includes/home';
+@import 'custom/includes/products';
+@import 'custom/includes/footer';
+@import 'custom/includes/terms';
+@import 'custom/includes/content-and-resources';
+@import 'custom/includes/forms';
+@import 'custom/includes/about';
+@import 'custom/includes/embeds';
+@import 'custom/includes/contactForms';
+@import 'custom/includes/thank-you-pages';
+@import 'custom/includes/news';
+@import 'custom/includes/includes';
+@import 'custom/includes/heros';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,html {
+	color: $grey;
+	background-color: white;
+}
+
+a {
+	transition: $transition;
+}
+
+img {
+	pointer-events: none;
+}
+
+hr {
+	padding-bottom: $gutter;
+	width: 75%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+ul, ol {
+
+	padding-left: $gutter;
+	
+	li {
+		margin-bottom: $gutter/2;
+	}
+
+}
+
+// Text Selection
+
+::selection {
+  background: rgba(141, 198, 63, 0.35); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(141, 198, 63, 0.35); /* Gecko Browsers */
+}

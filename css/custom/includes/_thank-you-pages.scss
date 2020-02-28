@@ -1,0 +1,28 @@
+.thankYouHero {
+	
+	background: url(../img/contact/thank-you/generalHero.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: $gutter;
+	padding: $gutter*3 0;
+	text-align: center;
+	box-shadow: $boxShadow;
+
+	h1, p {
+		color: $white;
+		text-shadow: $textShadow;
+	}
+
+	p {
+		color: $white;
+	}
+
+}
+
+.recommendedContent {
+
+	text-align: center;
+
+}

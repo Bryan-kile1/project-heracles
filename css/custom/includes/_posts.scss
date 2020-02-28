@@ -1,0 +1,59 @@
+#posts {
+
+  padding: $gutter 0;
+
+  .postsContainer {
+    max-width: 75%;
+    margin: 0px auto; 
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $info;
+    }
+  }
+	
+	img {
+		max-width: 100%;
+		box-shadow: $boxShadow;
+	}
+
+  .postsImgContainer {
+
+    &:hover {
+      -webkit-animation: pulse 1s;
+      animation: pulse 1s;
+    }
+    
+  }
+
+  h2.postsTitle {
+
+    color: $primary;
+    transition: $transition;
+
+    a:hover {
+    	color: $primaryDark;
+    }
+
+  }
+
+  .postsDate {
+
+  }
+
+  .postsImg {
+
+    margin-bottom: $gutter;
+    box-shadow: $boxShadow;
+    border-radius: 15px;
+  }
+
+  .postsSummary {
+
+    margin-bottom: $gutter;
+
+  }
+
+}
