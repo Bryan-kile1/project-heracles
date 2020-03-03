@@ -2719,6 +2719,22 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table td, .table th { background-color: #fff !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
 
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
 html, body { font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Lato", sans-serif; font-weight: 400; }
@@ -4534,9 +4550,11 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 @media (prefers-reduced-motion) { .animated { -webkit-animation: unset !important; animation: unset !important; -webkit-transition: none !important; transition: none !important; } }
 
-#homeAboutSalucro { width: 75%; margin: 0px auto; margin-top: -35px; margin-bottom: 35px; padding: 35px 35px; background-color: #F8F8F9; box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.15); border-radius: 7px; }
+#homeAboutSalucro { width: 75%; margin: 0px auto; margin-top: -35px; margin-bottom: 35px; padding: 35px 35px; background-color: white; box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.15); border-radius: 7px; }
 
-#homeSolutions { text-align: center; margin-top: 70px; }
+#homeSolutions { text-align: center; margin-top: 35px; }
+
+#homeSolutions .col-md { padding: 35px; background-color: white; margin: 0 35px; margin-bottom: 35px; border-radius: 14px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); }
 
 #homeSolutions .col-md .fa-angle-double-right { margin-left: 5px; transition: all 0.25s ease; }
 
@@ -4544,29 +4562,41 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeSolutions .col-md img { margin-bottom: 17.5px; }
 
-#homeSolutions .col-md h5 { margin-bottom: 17.5px; }
+#homeSolutions .col-md h5 { margin-bottom: 17.5px; font-weight: 700; color: #65A798; }
 
-#homeSolutions .col-md p { margin-bottom: 17.5px; text-align: left; }
+#homeSolutions .col-md p { margin-bottom: 17.5px; }
 
 #homeSolutions .col-md a { text-decoration: none; }
 
-#homeSolutions .col-md a .fa-angle-double-right { margin-left: 5px; transition: all 0.25s ease; }
+#homeSolutions .col-md a .fa-angle-double-right { margin-left: 5px; transition: all 0.25s ease; color: #77C8AE; }
 
 #homeSolutions .col-md a:hover { text-decoration: none; }
 
 #homeSolutions .col-md a:hover .fa-angle-double-right { margin-left: 15px; }
 
+svg { display: block; }
+
+footer { background-color: #3F2A5F; }
+
+footer .footerLogo { margin-top: 35px; margin-bottom: 8.75px; max-width: 150px; }
+
 footer .container-fluid { padding: 0px; text-align: center; }
 
-footer #preFooter { background: url("../../img/home/footerCTABackground.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: left; padding: 70px 0; }
+footer .container-fluid .row { margin: 0; padding: 0; }
 
-footer #footerTop { margin: 0px auto; text-align: center; padding: 35px 0 11.6666666667px 0; }
+footer #footerTop { margin: 0px auto; padding: 35px 17.5px; }
 
-footer #footerTop li { list-style: none; display: inline; padding: 0px 35px; color: #171738; font-weight: 300; }
+footer #footerTop p { color: rgba(255, 255, 255, 0.45); margin-bottom: 35px; }
 
-footer #footerBottom { padding: 17.5px 17.5px; margin: 0px; }
+footer #footerTop p.small { color: #F8F8F9; text-align: left; line-height: 1.5rem; margin-bottom: 11.6666666667px; text-transform: uppercase; }
 
-footer #footerBottom p { color: #CCCCCC; }
+footer #footerTop p.small a { color: #F8F8F9; text-decoration: none; }
+
+footer #footerTop p.small a:hover { text-decoration: none; }
+
+footer #footerBottom { padding-bottom: 52.5px; margin: 0px; }
+
+footer #footerBottom p { color: rgba(255, 255, 255, 0.45); }
 
 .terms { padding: 35px 0; }
 
@@ -4588,19 +4618,17 @@ footer #footerBottom p { color: #CCCCCC; }
 
 .recommendedContent { text-align: center; }
 
-#homeHero { background: url("../../img/home/heroBG.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 140px 0; text-align: center; }
+#homeHero { background: url("../../img/home/heroBG.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display: block; padding: 140px 0; text-align: center; }
 
 #homeHero h2, #homeHero p { color: #F8F8F9 !important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
 
 #homeHero p { font-weight: 400; }
 
-#homeHero #homeHeroContent p { margin: 35px 0 35px 0; }
+#homeHero #homeHeroContent p { margin: 35px 0; }
 
 #homeHero #homeHeroContent .sButton { text-shadow: none; }
 
-* { margin: 0; padding: 0; }
-
-body, html { color: #CCCCCC; background-color: white; }
+body, html { color: #CCCCCC; background-color: #F8F8F9; margin: 0; }
 
 a { transition: all 0.25s ease; }
 

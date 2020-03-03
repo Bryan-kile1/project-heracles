@@ -4,7 +4,7 @@
 	margin-top: -$gutter;
 	margin-bottom: $gutter;
 	padding: $gutter $gutter;
-	background-color: $white;
+	background-color: white;
 	box-shadow: 0px 0px 24px 8px rgba(0,0,0,.15);
 	border-radius: $borderRadius;
 }
@@ -12,9 +12,29 @@
 #homeSolutions {
 
 	text-align: center;
-	margin-top: $gutter*2;
+	margin-top: $gutter;
+	
+	// Attempting to put a shape behind a box, pausing for now to continue on content.
+	// &::before {
+	// 	content: '';
+	// 	display: inline-block;
+	// 	position: absolute;
+	// 	top: 735px;
+	// 	left: 55px;
+	// 	width: 190px;
+	// 	height: 190px;
+	// 	border-radius: 100%;
+	// 	background-image: linear-gradient(-135deg, $primary 0%, $primaryDark 85%);
+	// }
 
 	.col-md {
+
+		padding: $gutter;
+		background-color: white;
+		margin: 0 $gutter;
+		margin-bottom: $gutter;
+		border-radius: $borderRadius*2;
+		box-shadow: $boxShadowBig;
 
 		.fa-angle-double-right {
 			margin-left: 5px;
@@ -31,11 +51,12 @@
 
 		h5 {
 			margin-bottom: $gutter/2;
+			font-weight: $heavy;
+			color: $secondaryDark;
 		}
 
 		p {
 			margin-bottom: $gutter/2;
-			text-align: left;
 		}
 
 		a {
@@ -44,6 +65,7 @@
 			.fa-angle-double-right {
 				margin-left: 5px;
 				transition: $transition;
+				color: $secondary;
 			}
 
 			&:hover {
@@ -58,3 +80,11 @@
 	}
 
 }
+
+
+
+
+
+
+
+

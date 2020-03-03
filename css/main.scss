@@ -2,6 +2,7 @@
 ---
 
 @import 'bootstrap/bootstrap';
+@import 'custom/includes/reset';
 @import 'custom/includes/typography';
 @import 'custom/includes/elements';
 @import 'custom/includes/header';
@@ -24,14 +25,10 @@
 @import 'custom/includes/includes';
 @import 'custom/includes/heros';
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body,html {
 	color: $grey;
-	background-color: white;
+	background-color: $white;
+	margin: 0;
 }
 
 a {

@@ -5,6 +5,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	display: block;
 
 	padding: $gutter*4 0;
 	text-align: center;
@@ -21,7 +22,7 @@
 	#homeHeroContent {
 
 		p {
-			margin: $gutter 0 $gutter 0;
+			margin: $gutter 0;
 		}
 
 		.sButton {
