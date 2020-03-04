@@ -4582,6 +4582,21 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 @media (max-width: 991.98px) { #homeProductPreview .container-fluid p { margin-bottom: 35px; } }
 
+#preFooterCTA p { margin: 35px auto; }
+
+@media (max-width: 767.98px) { #preFooterCTA form input { display: block; margin-right: 0; margin-bottom: 35px; width: 100%; }
+  #preFooterCTA form input[type="email"] { width: 100% !important; } }
+
+#preFooterCTA form input[type="email"] { border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); padding: 17.5px 0; padding-left: 35px; width: 80%; border-radius: 7px; margin-right: 35px; }
+
+#preFooterCTA form input[type="email"]:focus { box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); outline: none; }
+
+#preFooterCTA form input[type="submit"] { text-decoration: none; color: #F8F8F9 !important; border-radius: 7px; background-color: #77C8AE; padding: 17.5px 35px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); transition: all 0.25s ease; }
+
+#preFooterCTA form input[type="submit"]:hover { background-color: #161839; }
+
+#preFooterCTA form input[type="submit"]:hover { text-decoration: none; }
+
 .waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; }
 
 footer { background-color: #3F2A5F; }
