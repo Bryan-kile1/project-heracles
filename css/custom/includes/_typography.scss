@@ -55,6 +55,7 @@ p {
 	font-family: $body;
 	font-weight: $light;
 	color: $black;
+	line-height: 1.5rem;
 
 	span {
 		font-weight: $heavy;
@@ -62,6 +63,7 @@ p {
 
 	&.small {
 		font-size: 1rem;
+		font-weight: $light;
 	}
 
 	&.extraSmall {

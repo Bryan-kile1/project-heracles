@@ -2751,11 +2751,11 @@ h2 { font-size: 2rem; color: #161839; }
 
 h3 { font-size: 1.5rem; font-weight: regular; color: #3F2A5F; }
 
-p { font-size: 1.25rem; font-family: "Open Sans", sans-serif; font-weight: 300; color: #171738; }
+p { font-size: 1.25rem; font-family: "Open Sans", sans-serif; font-weight: 300; color: #171738; line-height: 1.5rem; }
 
 p span { font-weight: 700; }
 
-p.small { font-size: 1rem; }
+p.small { font-size: 1rem; font-weight: 300; }
 
 p.extraSmall { font-size: .75rem; }
 
@@ -4552,19 +4552,17 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeAboutSalucro { width: 75%; margin: 0px auto; margin-top: -35px; margin-bottom: 35px; padding: 35px 35px; background-color: white; box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.15); border-radius: 7px; }
 
-#homeSolutions { text-align: center; margin-top: 35px; }
+#homeSolutions { text-align: center; margin-top: 70px; margin-bottom: -70px; }
 
-#homeSolutions .col-md { padding: 35px; background-color: white; margin: 0 35px; margin-bottom: 35px; border-radius: 14px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); }
+#homeSolutions .col-md { padding: 17.5px; background-color: white; margin: 0 35px; margin-bottom: 35px; border-radius: 14px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); }
 
-#homeSolutions .col-md .fa-angle-double-right { margin-left: 5px; transition: all 0.25s ease; }
-
-#homeSolutions .col-md .fa-angle-double-right:hover { margin-left: 15px; }
-
-#homeSolutions .col-md img { margin-bottom: 17.5px; }
+#homeSolutions .col-md img { margin-bottom: 17.5px; max-width: 100px; }
 
 #homeSolutions .col-md h5 { margin-bottom: 17.5px; font-weight: 700; color: #65A798; }
 
 #homeSolutions .col-md p { margin-bottom: 17.5px; }
+
+#homeSolutions .col-md .homeSolutionsButton { border: 2px solid #77C8AE; margin: 17.5px auto; width: 75%; max-width: 160px; padding-top: 11.6666666667px; padding-bottom: 11.6666666667px; border-radius: 7px; color: #77C8AE; transition: all 0.25s ease; }
 
 #homeSolutions .col-md a { text-decoration: none; }
 
@@ -4572,9 +4570,19 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeSolutions .col-md a:hover { text-decoration: none; }
 
-#homeSolutions .col-md a:hover .fa-angle-double-right { margin-left: 15px; }
+#homeSolutions .col-md a:hover .homeSolutionsButton { background-color: #77C8AE; color: #F8F8F9; }
 
-svg { display: block; }
+#homeSolutions .col-md a:hover .fa-angle-double-right { margin-left: 15px; color: #F8F8F9; }
+
+#homeProductPreview svg { display: block; }
+
+#homeProductPreview .container-fluid { background-color: #65A798; }
+
+#homeProductPreview .container-fluid h2, #homeProductPreview .container-fluid p { color: #F8F8F9; }
+
+@media (max-width: 991.98px) { #homeProductPreview .container-fluid p { margin-bottom: 35px; } }
+
+.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; }
 
 footer { background-color: #3F2A5F; }
 

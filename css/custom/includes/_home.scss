@@ -12,41 +12,34 @@
 #homeSolutions {
 
 	text-align: center;
-	margin-top: $gutter;
+	margin-top: $gutter*2;
+	margin-bottom: -$gutter*2;
 	
 	// Attempting to put a shape behind a box, pausing for now to continue on content.
 	// &::before {
 	// 	content: '';
 	// 	display: inline-block;
 	// 	position: absolute;
-	// 	top: 735px;
-	// 	left: 55px;
+	// 	top: 1075px;
+	// 	left: -15px;
 	// 	width: 190px;
 	// 	height: 190px;
 	// 	border-radius: 100%;
-	// 	background-image: linear-gradient(-135deg, $primary 0%, $primaryDark 85%);
+	// 	background-image: linear-gradient(40deg, $secondary 0%, $primaryDark 85%);
 	// }
 
 	.col-md {
 
-		padding: $gutter;
+		padding: $gutter/2;
 		background-color: white;
 		margin: 0 $gutter;
 		margin-bottom: $gutter;
 		border-radius: $borderRadius*2;
 		box-shadow: $boxShadowBig;
 
-		.fa-angle-double-right {
-			margin-left: 5px;
-			transition: $transition;
-
-			&:hover {
-				margin-left: 15px;
-			}
-		}
-
 		img {
 			margin-bottom: $gutter/2;
+			max-width: 100px;
 		}
 
 		h5 {
@@ -57,6 +50,18 @@
 
 		p {
 			margin-bottom: $gutter/2;
+		}
+
+		.homeSolutionsButton {
+			border: 2px solid $secondary;
+			margin: $gutter/2 auto;	
+			width: 75%;
+			max-width: 160px;
+			padding-top: $gutter/3;
+			padding-bottom: $gutter/3;
+			border-radius: $borderRadius;
+			color: $secondary;
+			transition: $transition;
 		}
 
 		a {
@@ -71,8 +76,14 @@
 			&:hover {
 				text-decoration: none;
 
+				.homeSolutionsButton {
+					background-color: $secondary;
+					color: $white;
+				}
+
 				.fa-angle-double-right {
 					margin-left: 15px;
+					color: $white;
 				}
 			}
 
@@ -80,6 +91,31 @@
 	}
 
 }
+
+#homeProductPreview {
+
+
+	svg {
+		display: block;
+	}
+
+	.container-fluid {
+		background-color: $secondaryDark;
+
+		h2, p {
+			color: $white;
+		}
+
+		@include media-breakpoint-down(md) {
+			p {
+				margin-bottom: $gutter;
+			}
+		}
+
+	}
+
+}
+
 
 
 
