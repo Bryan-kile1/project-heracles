@@ -1,14 +1,15 @@
 #homeHero {
 
-	background: url("../../img/home/homeHeroNew.jpg") no-repeat center center; 
+	background-color: grey;
+	// background: url("../../img/home/homeHeroNew.jpg") no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	display: block;
 
-	padding: $gutter*5 0;
-	// text-align: center;
+	padding: $gutter*6.5 0;
+	text-align: center;
 
 	h1, p {
 		color: $white !important;
@@ -27,6 +28,8 @@
 
 		.sButton {
 			text-shadow: none;
+			margin-right: $gutter/2;
+			margin-left: $gutter/2;
 		}
 
 	}

@@ -2743,15 +2743,15 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { font-weight: 700; }
 
 h1, h2, h3 { margin-bottom: 17.5px; }
 
-h1 { font-size: 2.5rem; color: #171738; }
+h1 { font-size: 3.5rem; line-height: 4rem; color: #171738; }
 
-@media (max-width: 991.98px) { h1 { font-size: 1.5rem; } }
+@media (max-width: 991.98px) { h1 { font-size: 3.5rem; line-height: 4rem; } }
 
-h2 { font-size: 2rem; color: #161839; }
+h2 { font-size: 3rem; line-height: 3.5rem; color: #161839; }
 
-h3 { font-size: 1.5rem; font-weight: regular; color: #3F2A5F; }
+h3 { font-size: 2rem; line-height: 2.5rem; font-weight: regular; color: #3F2A5F; }
 
-p { font-size: 1.25rem; font-family: "Open Sans", sans-serif; font-weight: 300; color: #171738; line-height: 1.5rem; }
+p { font-size: 1.5rem; font-family: "Open Sans", sans-serif; font-weight: 300; color: #171738; line-height: 2rem; }
 
 p span { font-weight: 700; }
 
@@ -2768,6 +2768,12 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 .sButton:hover { background-color: #161839; }
 
 .sButton:hover { text-decoration: none; }
+
+.sButtonTransparent { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; border: 3px solid #77C8AE; background-color: none; padding: 7px 17.5px; transition: all 0.25s ease; }
+
+.sButtonTransparent:hover { background-color: #161839; }
+
+.sButtonTransparent:hover { text-decoration: none; }
 
 .navbar { z-index: 10; background-color: #F8F8F9 !important; font-family: "Open Sans", sans-serif; font-weight: 400; font-size: .85rem; padding: 20px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
 
@@ -4643,7 +4649,7 @@ footer #footerBottom p { color: rgba(255, 255, 255, 0.45); }
 
 .recommendedContent { text-align: center; }
 
-#homeHero { background: url("../../img/home/homeHeroNew.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display: block; padding: 175px 0; }
+#homeHero { background-color: grey; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display: block; padding: 227.5px 0; text-align: center; }
 
 #homeHero h1, #homeHero p { color: #F8F8F9 !important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
 
@@ -4651,7 +4657,7 @@ footer #footerBottom p { color: rgba(255, 255, 255, 0.45); }
 
 #homeHero #homeHeroContent p { margin: 35px 0; }
 
-#homeHero #homeHeroContent .sButton { text-shadow: none; }
+#homeHero #homeHeroContent .sButton { text-shadow: none; margin-right: 17.5px; margin-left: 17.5px; }
 
 body, html { color: #CCCCCC; background-color: #F8F8F9; margin: 0; }
 
