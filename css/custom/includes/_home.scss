@@ -2,7 +2,7 @@
 
 	margin-top: $gutter*1.75;
 
-	h3, p {
+	h2, p {
 		text-align: center;
 	}
 
@@ -17,11 +17,8 @@
 	.col-md {
 
 		padding: $gutter/2;
-		background-color: white;
 		margin: 0 $gutter;
 		margin-bottom: $gutter;
-		border-radius: $borderRadius*2;
-		box-shadow: $boxShadowBig;
 
 		img {
 			margin-bottom: $gutter/2;
@@ -38,39 +35,12 @@
 			margin-bottom: $gutter/2;
 		}
 
-		.homeSolutionsButton {
-			border: 2px solid $secondary;
-			margin: $gutter/2 auto;	
-			width: 75%;
-			max-width: 160px;
-			padding-top: $gutter/3;
-			padding-bottom: $gutter/3;
-			border-radius: $borderRadius;
-			color: $secondary;
-			transition: $transition;
-		}
-
 		a {
-			text-decoration: none;
 
-			.fa-angle-double-right {
-				margin-left: 5px;
-				transition: $transition;
-				color: $secondary;
-			}
+			text-decoration: none;
 
 			&:hover {
 				text-decoration: none;
-
-				.homeSolutionsButton {
-					background-color: $secondary;
-					color: $white;
-				}
-
-				.fa-angle-double-right {
-					margin-left: 15px;
-					color: $white;
-				}
 			}
 
 		}

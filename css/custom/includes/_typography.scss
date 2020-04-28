@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:300,400,700&display=swap');
+@import url("https://use.typekit.net/ipp8idi.css");
 
 // Body and Heading Font Customizations
 
-$body: 'Open Sans', sans-serif;
-$heading: 'Lato', sans-serif;
+$body: lato, sans-serif;
+$heading: adelle, serif;
 
 // Font Weight Customizations
 
 $light: 300;
 $regular: 400;
-$heavy: 700;
+$heavy: 600;
 
 $textShadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 

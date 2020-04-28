@@ -1,6 +1,6 @@
 /*! Bootstrap v4.0.0 (https://getbootstrap.com) Copyright 2011-2018 The Bootstrap Authors Copyright 2011-2018 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /* Forms */
-@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:300,400,700&display=swap");
+@import url("https://use.typekit.net/ipp8idi.css");
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #F8F8F9; --gray: #6c757d; --gray-dark: #343a40; --primary: #3F2A5F; --secondary: #77C8AE; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -2735,11 +2735,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-html, body { font-family: "Open Sans", sans-serif; }
+html, body { font-family: lato, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Lato", sans-serif; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-family: adelle, serif; font-weight: 400; }
 
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { font-weight: 700; }
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { font-weight: 600; }
 
 h1, h2, h3 { margin-bottom: 17.5px; }
 
@@ -2751,9 +2751,9 @@ h2 { font-size: 3rem; line-height: 3.5rem; color: #161839; }
 
 h3 { font-size: 2rem; line-height: 2.5rem; font-weight: regular; color: #3F2A5F; }
 
-p { font-size: 1.5rem; font-family: "Open Sans", sans-serif; font-weight: 300; color: #171738; line-height: 2rem; }
+p { font-size: 1.5rem; font-family: lato, sans-serif; font-weight: 300; color: #171738; line-height: 2rem; }
 
-p span { font-weight: 700; }
+p span { font-weight: 600; }
 
 p.small { font-size: 1rem; font-weight: 300; }
 
@@ -2769,13 +2769,17 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 .sButton:hover { text-decoration: none; }
 
-.sButtonTransparent { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; border: 3px solid #77C8AE; background-color: none; padding: 7px 17.5px; transition: all 0.25s ease; }
+.sButtonTransparent { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; border: 3px solid #77C8AE; background-color: none; padding: 7px 17.5px; transition: all 0.25s ease; max-width: 75%; margin: 0px auto; }
 
-.sButtonTransparent:hover { background-color: #161839; }
+.sButtonTransparent:hover { background-color: #65A798; border-color: #65A798; }
 
 .sButtonTransparent:hover { text-decoration: none; }
 
-.navbar { z-index: 10; background-color: #F8F8F9 !important; font-family: "Open Sans", sans-serif; font-weight: 400; font-size: .85rem; padding: 20px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
+.sButtonTransparentWhiteBG { color: #77C8AE !important; }
+
+.sButtonTransparentWhiteBG:hover { color: #F8F8F9 !important; }
+
+.navbar { z-index: 10; background-color: #F8F8F9 !important; font-family: lato, sans-serif; font-weight: 400; font-size: .85rem; padding: 20px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
 
 @media (max-width: 991.98px) { .navbar { padding: 20px 35px; } }
 
@@ -2817,7 +2821,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #newsAnnouncement p { padding: 0; margin: 0; color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); font-size: 14px; }
 
-#newsAnnouncement a { font-weight: 700; color: #F8F8F9; }
+#newsAnnouncement a { font-weight: 600; color: #F8F8F9; }
 
 #newsAnnouncement a:hover { color: white; }
 
@@ -2881,9 +2885,9 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #postHero .heroTitle .authorName, #postHero .heroTitle .extraSmall { color: #CCCCCC; }
 
-blockquote { position: relative; margin: 35px auto; width: 100%; font-size: 32px; line-height: 48px; padding-left: 40px; border-left: 3px solid #161839; font-family: "Lato", sans-serif; font-weight: 400; color: #3F2A5F !important; }
+blockquote { position: relative; margin: 35px auto; width: 100%; font-size: 32px; line-height: 48px; padding-left: 40px; border-left: 3px solid #161839; font-family: adelle, serif; font-weight: 400; color: #3F2A5F !important; }
 
-blockquote span { display: block; text-align: right; font-size: 24px; line-height: 40px; padding-right: 40px; margin-top: 10px; text-transform: uppercase; font-family: "Open Sans", sans-serif; color: rgba(120, 176, 182, 0.75) !important; font-weight: 300; }
+blockquote span { display: block; text-align: right; font-size: 24px; line-height: 40px; padding-right: 40px; margin-top: 10px; text-transform: uppercase; font-family: lato, sans-serif; color: rgba(120, 176, 182, 0.75) !important; font-weight: 300; }
 
 #post { padding-top: 35px; padding-bottom: 35px; }
 
@@ -4558,29 +4562,21 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeSolutionsIntro { margin-top: 61.25px; }
 
-#homeSolutionsIntro h3, #homeSolutionsIntro p { text-align: center; }
+#homeSolutionsIntro h2, #homeSolutionsIntro p { text-align: center; }
 
 #homeSolutions { text-align: center; margin-top: 70px; margin-bottom: -70px; }
 
-#homeSolutions .col-md { padding: 17.5px; background-color: white; margin: 0 35px; margin-bottom: 35px; border-radius: 14px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); }
+#homeSolutions .col-md { padding: 17.5px; margin: 0 35px; margin-bottom: 35px; }
 
 #homeSolutions .col-md img { margin-bottom: 17.5px; max-width: 100px; }
 
-#homeSolutions .col-md h5 { margin-bottom: 17.5px; font-weight: 700; color: #65A798; }
+#homeSolutions .col-md h5 { margin-bottom: 17.5px; font-weight: 600; color: #65A798; }
 
 #homeSolutions .col-md p { margin-bottom: 17.5px; }
 
-#homeSolutions .col-md .homeSolutionsButton { border: 2px solid #77C8AE; margin: 17.5px auto; width: 75%; max-width: 160px; padding-top: 11.6666666667px; padding-bottom: 11.6666666667px; border-radius: 7px; color: #77C8AE; transition: all 0.25s ease; }
-
 #homeSolutions .col-md a { text-decoration: none; }
 
-#homeSolutions .col-md a .fa-angle-double-right { margin-left: 5px; transition: all 0.25s ease; color: #77C8AE; }
-
 #homeSolutions .col-md a:hover { text-decoration: none; }
-
-#homeSolutions .col-md a:hover .homeSolutionsButton { background-color: #77C8AE; color: #F8F8F9; }
-
-#homeSolutions .col-md a:hover .fa-angle-double-right { margin-left: 15px; color: #F8F8F9; }
 
 #homeProductPreview svg { display: block; }
 
@@ -4617,7 +4613,7 @@ footer .container-fluid .row { margin: 0; padding: 0; }
 
 footer #footerTop { margin: 0px auto; padding: 35px 17.5px; }
 
-footer #footerTop p { color: rgba(255, 255, 255, 0.45); margin-bottom: 35px; }
+footer #footerTop p { color: rgba(248, 248, 249, 0.45); margin-bottom: 35px; }
 
 footer #footerTop p.small { color: #F8F8F9; text-align: left; line-height: 1.5rem; margin-bottom: 11.6666666667px; text-transform: uppercase; }
 
@@ -4627,7 +4623,7 @@ footer #footerTop p.small a:hover { text-decoration: none; }
 
 footer #footerBottom { padding-bottom: 52.5px; margin: 0px; }
 
-footer #footerBottom p { color: rgba(255, 255, 255, 0.45); }
+footer #footerBottom p { color: rgba(248, 248, 249, 0.45); }
 
 .terms { padding: 35px 0; }
 

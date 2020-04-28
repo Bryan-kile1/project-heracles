@@ -33,14 +33,25 @@ hr.salucro {
 	border: 3px solid $secondary;
 	background-color: none;
 	padding: $gutter/5 $gutter/2;
-	// box-shadow: $boxShadowBig;
 	transition: $transition;
+	max-width: 75%;
+	margin: 0px auto;
 
 	&:hover {
-		background-color: $primaryDark;
+		background-color: $secondaryDark;
+		border-color: $secondaryDark;
 	}
 
 	&:hover {
 		text-decoration: none;
+	}
+
+}
+
+.sButtonTransparentWhiteBG {
+	color: $secondary !important;
+
+	&:hover {
+		color: $white !important;
 	}
 }
