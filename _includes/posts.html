@@ -3,7 +3,7 @@
 		<div class="row postsContainer">
 			{% for post in paginator.posts %}
 				<div>
-					<h2 class="postsTitle"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+					<h3 class="postsTitle"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 					<p class="small postsDate">{{ post.date | date: "%b %-d, %Y" }}</p>
 					<a href="{{ post.url | prepend: site.baseurl }}"><div class="postsImgContainer"><img class="postsImg" src="{{ post.featuredImg }}" alt=""></img></div></a>
 					<p class="postsSummary">{{ post.summary }} <a href="{{ post.url | prepend: site.baseurl }}">Read More. . . </a></p>

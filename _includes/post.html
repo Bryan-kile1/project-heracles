@@ -1,4 +1,11 @@
-<div id="postHero" class="container-fluid">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md" id="postHeroImage" style="background-image: url({{ page.featuredImg }});">
+		</div>
+	</div>
+</div>
+
+<!-- <div id="postHero" class="container-fluid">
 	<div class="row">
 		<div class="col-md heroImage">
 			<img src="{{ page.featuredImg }}" alt="">
@@ -9,12 +16,14 @@
 			<p class="extraSmall">{{ page.date | date: "%b %-d, %Y" }}</p>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <div id="post" class="container">
 	<div class="row">
 		<div class="col-md">
 			<article>
+				<h1><span class="align-middle">{{ page.title }}</span></h1>
+				<hr>
 				{{ content }}
 			</article>
 		</div>

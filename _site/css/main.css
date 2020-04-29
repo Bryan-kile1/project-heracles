@@ -2727,8 +2727,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body { line-height: 1; }
 
-ol, ul { list-style: none; }
-
 blockquote, q { quotes: none; }
 
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
@@ -2737,21 +2735,23 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html, body { font-family: lato, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 { font-family: adelle, serif; font-weight: 400; }
+h1, h2, h3, h4, h5 { font-family: adelle, serif; font-weight: 400; margin-bottom: 35px; }
 
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { font-weight: 600; }
+h1 span, h2 span, h3 span, h4 span, h5 span { font-weight: 600; }
 
-h1, h2, h3 { margin-bottom: 17.5px; }
+h1 { font-size: 3.5rem; line-height: 4rem; color: #161839; }
 
-h1 { font-size: 3.5rem; line-height: 4rem; color: #171738; }
+@media (max-width: 991.98px) { h1 { font-size: 2rem; line-height: 2.5rem; } }
 
-@media (max-width: 991.98px) { h1 { font-size: 3.5rem; line-height: 4rem; } }
+h2 { font-size: 3rem; line-height: 3.25rem; color: #3F2A5F; }
 
-h2 { font-size: 3rem; line-height: 3.5rem; color: #161839; }
+h3 { font-size: 2.5rem; line-height: 2.75rem; color: #65A798; }
 
-h3 { font-size: 2rem; line-height: 2.5rem; font-weight: regular; color: #3F2A5F; }
+h4 { font-size: 2rem; line-height: 2.25rem; color: #77C8AE; }
 
-p { font-size: 1.5rem; font-family: lato, sans-serif; font-weight: 300; color: #171738; line-height: 2rem; }
+h5 { font-size: 1.5rem; line-height: 1.75rem; color: #E48167; }
+
+p { font-size: 1.5rem; font-family: lato, sans-serif; font-weight: 300; color: #58595B; line-height: 2rem; margin-bottom: 35px; }
 
 p span { font-weight: 600; }
 
@@ -2768,6 +2768,8 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 .sButton:hover { background-color: #161839; }
 
 .sButton:hover { text-decoration: none; }
+
+.sButton.disabled { opacity: .25; }
 
 .sButtonTransparent { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; border: 3px solid #77C8AE; background-color: none; padding: 7px 17.5px; transition: all 0.25s ease; max-width: 75%; margin: 0px auto; }
 
@@ -2839,7 +2841,7 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #posts h2.postsTitle { color: #3F2A5F; transition: all 0.25s ease; }
 
-#posts h2.postsTitle a:hover { color: #161839; }
+#posts h2.postsTitle a:hover { color: #77C8AE; }
 
 #posts .postsImg { margin-bottom: 35px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); border-radius: 15px; }
 
@@ -2853,61 +2855,27 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 #pager .mButton a:hover { text-decoration: none; }
 
-#postHero { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
-
-#postHero .heroImage { padding-left: 0px; padding-right: 0px; }
-
-#postHero .heroImage img { max-width: 100%; max-height: 100%; }
-
-#postHero .heroTitle { padding-right: 35px; padding-left: 35px; padding-top: 17.5px; }
-
-@media (min-width: 992px) { #postHero .heroTitle { padding-top: 35px; } }
-
-@media (min-width: 1200px) { #postHero .heroTitle { padding-top: 70px; } }
-
-@media (min-width: 1760px) { #postHero .heroTitle { padding-top: 140px; } }
-
-@media (min-width: 2200px) { #postHero .heroTitle { padding-top: 210px; } }
-
-#postHero .heroTitle h1 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); font-size: 1rem; }
-
-@media (min-width: 768px) { #postHero .heroTitle h1 { font-size: 1.25rem; } }
-
-@media (min-width: 992px) { #postHero .heroTitle h1 { font-size: 1.75rem; } }
-
-@media (min-width: 1200px) { #postHero .heroTitle h1 { font-size: 2rem; } }
-
-@media (min-width: 1450px) { #postHero .heroTitle h1 { font-size: 3rem; } }
-
-@media (min-width: 2200px) { #postHero .heroTitle h1 { font-size: 4rem; } }
-
-#postHero .heroTitle h1 span { background-color: #65A798; padding: 17.5px 8.75px; display: inline-block; }
-
-#postHero .heroTitle .authorName, #postHero .heroTitle .extraSmall { color: #CCCCCC; }
-
 blockquote { position: relative; margin: 35px auto; width: 100%; font-size: 32px; line-height: 48px; padding-left: 40px; border-left: 3px solid #161839; font-family: adelle, serif; font-weight: 400; color: #3F2A5F !important; }
 
 blockquote span { display: block; text-align: right; font-size: 24px; line-height: 40px; padding-right: 40px; margin-top: 10px; text-transform: uppercase; font-family: lato, sans-serif; color: rgba(120, 176, 182, 0.75) !important; font-weight: 300; }
 
-#post { padding-top: 35px; padding-bottom: 35px; }
+#postHeroImage { min-height: 400px; margin: 0 auto; position: relative; background-size: cover; background-repeat: no-repeat; background-position: top center; }
 
-#post p { font-size: 1.125rem; }
+#post { width: 90%; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); padding: 35px; margin-top: -210px; border-radius: 7px; z-index: auto; position: relative; }
 
-#post p strong { color: #E48167; }
+#post p strong { color: #3F2A5F; font-weight: 600; }
 
-#post p.small { color: #CCCCCC; }
-
-#post h1 { color: #3F2A5F; }
-
-#post h2 { color: #77C8AE; }
-
-#post h3 { color: #E48167; }
-
-#post li strong { color: #E48167; }
+#post p.small { color: #58595B; }
 
 #post .featuredImg { max-width: 100%; }
 
 #post img { display: block; margin-left: auto; margin-right: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); margin-top: 20px; margin-bottom: 40px; max-width: 70%; }
+
+#post ul, #post ol { list-style-position: outside; }
+
+#post ul li, #post ol li { font-size: 1.25rem; font-family: lato, sans-serif; font-weight: 300; color: #58595B; line-height: 1.5rem; margin-bottom: 35px; margin-left: 35px; }
+
+#post ul li span, #post ol li span { font-weight: 600; }
 
 #footerForm { padding-bottom: 35px; }
 
@@ -4655,7 +4623,7 @@ footer #footerBottom p { color: rgba(248, 248, 249, 0.45); }
 
 #homeHero #homeHeroContent .sButton { text-shadow: none; margin-right: 17.5px; margin-left: 17.5px; }
 
-body, html { color: #CCCCCC; background-color: #F8F8F9; margin: 0; }
+body, html { color: #58595B; background-color: #F8F8F9; margin: 0; }
 
 a { transition: all 0.25s ease; }
 

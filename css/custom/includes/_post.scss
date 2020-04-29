@@ -1,80 +1,80 @@
-#postHero {
-  box-shadow: $boxShadow;
+// #postHero {
+//   box-shadow: $boxShadow;
 
-  .heroImage {
+//   .heroImage {
     
-    padding-left: 0px;
-    padding-right: 0px;
+//     padding-left: 0px;
+//     padding-right: 0px;
 
-    img {
-      max-width: 100%;
-      max-height: 100%;
-    }
+//     img {
+//       max-width: 100%;
+//       max-height: 100%;
+//     }
 
-  }
+//   }
 
-  .heroTitle {
+//   .heroTitle {
 
-    padding-right: $gutter;
-    padding-left: $gutter;
-    padding-top: $gutter/2;
+//     padding-right: $gutter;
+//     padding-left: $gutter;
+//     padding-top: $gutter/2;
 
-    @include media-breakpoint-up(lg) {
-    	padding-top: $gutter;
-    }
+//     @include media-breakpoint-up(lg) {
+//     	padding-top: $gutter;
+//     }
 
-    @include media-breakpoint-up (xl) {
-    	padding-top: $gutter*2;
-    }
+//     @include media-breakpoint-up (xl) {
+//     	padding-top: $gutter*2;
+//     }
 
-    @media (min-width: 1760px) {
-    	padding-top: $gutter*4;
-    }
+//     @media (min-width: 1760px) {
+//     	padding-top: $gutter*4;
+//     }
 
-    @media (min-width: 2200px) {
-    	padding-top: $gutter*6;
-    }
+//     @media (min-width: 2200px) {
+//     	padding-top: $gutter*6;
+//     }
 
-    h1 {
-      color: $white;
-      text-shadow: $textShadow;
-      font-size: 1rem;
+//     h1 {
+//       color: $white;
+//       text-shadow: $textShadow;
+//       font-size: 1rem;
 
-      @include media-breakpoint-up(md) {
-      	font-size: 1.25rem;
-      }
+//       @include media-breakpoint-up(md) {
+//       	font-size: 1.25rem;
+//       }
 
-      @include media-breakpoint-up(lg) {
-      	font-size: 1.75rem;
-      }
+//       @include media-breakpoint-up(lg) {
+//       	font-size: 1.75rem;
+//       }
 
-      @include media-breakpoint-up(xl) {
-      	font-size: 2rem;
-      }
+//       @include media-breakpoint-up(xl) {
+//       	font-size: 2rem;
+//       }
 
-      @media (min-width: 1450px) {
-      	font-size: 3rem;
-      }
+//       @media (min-width: 1450px) {
+//       	font-size: 3rem;
+//       }
 
-      @media (min-width: 2200px) {
-      	font-size: 4rem;
-      }
+//       @media (min-width: 2200px) {
+//       	font-size: 4rem;
+//       }
 
-      span {
-        background-color: $secondaryDark;
-        padding: $gutter/2 $gutter/4;
-        display: inline-block;
-      }
+//       span {
+//         background-color: $secondaryDark;
+//         padding: $gutter/2 $gutter/4;
+//         display: inline-block;
+//       }
 
-    }
+//     }
 
-    .authorName, .extraSmall {
-    	color: $grey;
-    }
+//     .authorName, .extraSmall {
+//     	color: $grey;
+//     }
 
-  }
+//   }
 
-}
+// }
 
 blockquote {
   position: relative;
@@ -102,41 +102,37 @@ blockquote span {
   font-weight: $light;
 }
 
+#postHeroImage {
+
+  min-height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+}
+
 #post {
 
-  padding-top: $gutter;
-  padding-bottom: $gutter;
+  width: 90%;
+  background-color: white;
+  box-shadow: $boxShadow;
+  padding: $gutter;
+  margin-top: -$gutter*6;
+  border-radius: $borderRadius;
+  z-index: auto;
+  position: relative;
 
   p {
 
-    font-size: 1.125rem;
-
     strong {
-      color: $tertiary;
+      color: $primary;
+      font-weight: $heavy;
     }
 
     &.small {
       color: $grey;
-    }
-
-  }
-
-  h1 {
-    color: $primary;
-  }
-
-  h2 {
-    color: $secondary;
-  }
-
-  h3 {
-    color: $tertiary;
-  }
-
-  li {
-    
-    strong {
-      color: $tertiary;
     }
 
   }
@@ -155,6 +151,25 @@ blockquote span {
     margin-top: 20px;
     margin-bottom: 40px;
     max-width: 70%;
+  }
+
+  ul, ol {
+    list-style-position: outside;
+
+    li {
+      font-size: 1.25rem;
+      font-family: $body;
+      font-weight: $light;
+      color: $grey;
+      line-height: 1.5rem;
+      margin-bottom: $gutter;
+      margin-left: $gutter;
+
+      span {
+        font-weight: $heavy;
+      }
+    }
+
   }
 
 }

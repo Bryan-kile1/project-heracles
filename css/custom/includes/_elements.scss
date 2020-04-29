@@ -24,6 +24,10 @@ hr.salucro {
 		text-decoration: none;
 	}
 
+	&.disabled {
+		opacity: .25;
+	}
+
 }
 
 .sButtonTransparent {
