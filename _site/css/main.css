@@ -4625,7 +4625,7 @@ footer #footerBottom p { color: rgba(248, 248, 249, 0.45); }
 
 #homeHero video { display: none; position: absolute; margin-top: 105px; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; max-width: 100%; z-index: 0; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
 
-@media (min-width: 992px) { #homeHero { padding: 140px 0; }
+@media (min-width: 992px) { #homeHero { padding: 175px 0; }
   #homeHero video { display: block; } }
 
 #homeHero h1, #homeHero p { color: #3F2A5F !important; }
