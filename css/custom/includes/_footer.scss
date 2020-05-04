@@ -4,14 +4,15 @@
 		margin: 0;
 		padding: 0;
 		width: 100% !important;
-		// object-fit: cover;
+		object-fit: cover;
 		margin-bottom: -1px;
 	}
 }
 
 footer {
 
-	background-color: $primary;
+	background: rgb(63,42,95);
+	background: linear-gradient(180deg, rgba(63,42,95,1) 0%, rgba(22,24,57,1) 100%);
 
 	.footerLogo {
 		margin-top: $gutter;

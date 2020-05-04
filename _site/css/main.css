@@ -4558,7 +4558,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeProductPreview svg { display: block; }
 
-#homeProductPreview .container-fluid { background-color: #65A798; }
+#homeProductPreview .container-fluid { margin-top: -1px; background: #77c8ae; background: linear-gradient(180deg, #77c8ae 0%, #65a798 50%); }
 
 #homeProductPreview .container-fluid h2, #homeProductPreview .container-fluid p { color: #F8F8F9; }
 
@@ -4573,15 +4573,13 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #preFooterCTA form input[type="email"]:focus { box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); outline: none; }
 
-#preFooterCTA form input[type="submit"] { text-decoration: none; color: #F8F8F9 !important; border-radius: 7px; background-color: #77C8AE; padding: 17.5px 35px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); transition: all 0.25s ease; }
+#preFooterCTA form input[type="submit"] { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; background-color: #77C8AE; padding: 17.5px 35px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); transition: all 0.25s ease; max-width: 50%; margin: 0px auto; border: none !important; }
 
-#preFooterCTA form input[type="submit"]:hover { background-color: #161839; }
+#preFooterCTA form input[type="submit"]:hover { background-color: #161839; text-decoration: none; border: none !important; }
 
-#preFooterCTA form input[type="submit"]:hover { text-decoration: none; }
+.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
 
-.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; margin-bottom: -1px; }
-
-footer { background-color: #3F2A5F; }
+footer { background: #3f2a5f; background: linear-gradient(180deg, #3f2a5f 0%, #161839 100%); }
 
 footer .footerLogo { margin-top: 35px; margin-bottom: 8.75px; max-width: 150px; }
 
