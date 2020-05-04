@@ -1,17 +1,12 @@
 # Site and SEO settings
-title: Mobivity • Data Driven Everything
-description: Mobivity drives customer spend by capturing transactional data to analyze consumer habits, motivating them to return more frequently.
-email: marketing@mobivity.com
-author: Mobivity
-url: https://www.mobivity.com
+title: Salucro Healthcare Solutions
+description: The Salucro platform brings cohesive payment experiences to healthcare providers, patients, and third-party collection agencies.
+email: info@salucro.com
+author: Salucro
+url: https://www.salucro.com
 twitter:
-  twitter:username: mobivity
-logo: /img/mobivityLogoGreen.svg
-
-# Social icons
-show_social_icons: true
-github_username: mobivity
-twitter_username: mobivity
+  twitter:username: Salucro
+logo: /img/general/salucroLogoBlack.svg
 
 # Build settings
 permalink: :year/:month/:title
