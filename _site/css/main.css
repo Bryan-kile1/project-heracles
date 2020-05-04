@@ -4560,7 +4560,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeProductPreview .container-fluid { margin-top: -1px; background: #77c8ae; background: linear-gradient(180deg, #77c8ae 0%, #65a798 50%); }
 
-#homeProductPreview .container-fluid h2, #homeProductPreview .container-fluid p { color: #F8F8F9; }
+#homeProductPreview .container-fluid h3, #homeProductPreview .container-fluid p { color: #F8F8F9; }
 
 @media (max-width: 991.98px) { #homeProductPreview .container-fluid p { margin-bottom: 35px; } }
 
