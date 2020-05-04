@@ -42,11 +42,11 @@ h1 {
 h2 {
 	font-size: 3rem;
 	line-height: 3.25rem;
-	color: $primary;
+	color: $secondaryDark;
 
 	@include media-breakpoint-down(md) {
-		// font-size: 1.8rem;
-		// line-height: 2rem;
+		font-size: 1.8rem;
+		line-height: 2rem;
 	}
 
 }
@@ -54,7 +54,12 @@ h2 {
 h3 {
 	font-size: 2.5rem;
 	line-height: 2.75rem;
-	color: $secondaryDark;
+	color: $primary;
+
+	@include media-breakpoint-down(md) {
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
 }
 
 h4 {

@@ -1,29 +1,75 @@
 #homeHero {
 
-	background-color: grey;
-	// background: url("../../img/home/homeHeroNew.jpg") no-repeat center center; 
+	position: relative;
+	padding: $gutter*2 0;
+	display: block;
+	text-align: center;
+	background-color: $white;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+
+	// Mobile Background Image Where Video is Hidden
+
+	background: url(../img/home/webHeroVideo.jpg) ; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	display: block;
 
-	padding: $gutter*6.5 0;
-	text-align: center;
+	// Video CSS for Small Desktops or Higher
+
+	video {
+		display: none;
+		position: absolute;
+		margin-top: $gutter*3;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		z-index: 0;
+		-ms-transform: translateX(-50%) translateY(-50%);
+		-moz-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	// Responsive Styling to Display Video and Resize Hero Padding
+
+	@include media-breakpoint-up(lg) {
+
+		video {
+			display: block;
+		}
+
+		padding: $gutter*4 0;
+
+	}
 
 	h1, p {
-		color: $white !important;
-		text-shadow: $textShadow;
+		color: $primary !important;
 	}
 
 	p {
 		font-weight: $regular;
+		color: $primaryDark !important;
 	}
 
 	#homeHeroContent {
 
 		p {
 			margin: $gutter 0;
+		}
+
+		.sButtonTransparent {
+			color: $secondary !important;
+
+			&:hover {
+				color: $white !important;
+			}
+
 		}
 
 		.sButton {

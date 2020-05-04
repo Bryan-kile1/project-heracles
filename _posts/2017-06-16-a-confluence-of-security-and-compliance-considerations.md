@@ -1,0 +1,83 @@
+---
+layout: post
+
+title: Patient Payment Transactions - A Confluence of Security and Compliance Considerations
+
+summary: With a web of transactions arising from patient payments a gap in compliance or awareness can become costly.
+
+description: With a web of transactions arising from patient payments a gap in compliance or awareness can become costly.
+
+image: https://www.salucro.com/img/blog/genericBlogImage.jpg
+
+featuredImg: ../../../img/blog/genericBlogImage.jpg
+
+author: Natalie Moore
+---
+
+### Overlapping Compliance Considerations
+
+The healthcare industry has recently seen a host of breaches, non-compliance, and other frustrations relating to security, regulatory and related compliance obligations inherent in receiving payments from patients via modern payment options. With this web of transactions arising from patient payments, a gap in compliance or awareness is costly. One southwestern hospital system suffered a breach of their payment system affecting more than 3.7 million individuals. The breach is believed to have occurred through point-of- service payment card devices in the food and beverage systems. After exploiting a vulnerability in the payment systems, the attackers were allegedly able to access other components of the information infrastructure, including health records. The costs of this breach may rise into the millions.
+
+This sort of liability necessitates a careful understanding of the compliance requirements involved in accepting patient payments. The leading sources of compliance obligations relating to patient payment transactions are set forth in the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the Payment Card Industry Data Security Standard (PCI DSS). Other federal, state, and non-governmental authorities establish additional compliance considerations, but HIPAA and PCI DSS require the most attention, because their reach is the most expansive.
+
+HIPAA permits a healthcare provider to use or disclose protected health information (PHI) for its own payment purposes. This broad permission does not mean HIPAA is of no consequence during the payment transaction. Even though payment information may not include diagnosis information, transactional data may still be protected health information subject to HIPAA if there is a reasonable basis with which a patient can be identified through a review of the data. Self-pay financial transactions may involve names, credit card information, dates, account numbers, facility locations, and other information that is subject to HIPAA protection. Therefore, providers should ensure HIPAA compliance throughout the payment transaction process. In general, the HIPAA requirements pertinent to the transactions are found in the Security Rule.
+
+HIPAA’s Security Rule requires appropriate  technical and physical  safeguards to protect against the unauthorized access, disclosure, or loss of electronic information, which, for patient payments, may involve hundreds if not thousands of transactions per day. Privacy and data security obligations require the healthcare provider to secure the payment and related information in a manner that preserves the availability, integrity, and confidentiality of the information. The fact that a provider’s payment system facilitates many transactions attributable to many patients means that specific care should be taken to protect those system components.
+
+Where a healthcare provider engages a third party to facilitate patient payments, the service provider must be ready, willing, and capable to ensure that appropriate controls  are in place to satisfy the stringent HIPAA requirements. For large healthcare providers, the number, complexity, and sources of the patient self-pay obligations will necessitate careful scrutiny of the service provider’s capabilities and safeguards.
+
+PCI DSS is more unfamiliar in the healthcare industry. PCI DSS sets forth information security standards agreed upon by card associations (e.g., Visa, MasterCard, American Express) for any entity that handles card transactions—the most common method of payment for patient self-pay obligations.
+
+Every organization along the path of a transaction, from issuance of a payment card to the acceptance of a card payment, must comply with PCI DSS. As patients choose (or are required) to bear more responsibility for payment, the scope of liability for a healthcare provider under PCI DSS increases, as does the risk of non-compliance.
+
+The PCI DSS requirements can be broken down into six categories:
+
+1. Networks that facilitate, transmit, or store sensitive data must be securely implemented and maintained with safeguards such as firewalls and safe password.
+2. Sensitive cardholder information that is permitted to be stored (e.g., birth date, phone number, address) must be stored Transmission of such information must be encrypted.
+3. Systems must be protected with sophisticated programs that are regularly updated to prevent malicious threats from acquiring cardholder.
+4. System access should be restricted to only authorized personnel with audited.
+5. Networks should be closely monitored, tested, and. . .
+6. Network safeguards should be implemented pursuant to an information security policy tailored to the specific card- holder data.
+
+Healthcare providers must ensure PCI DSS compliance with those parts of the system network and devices that process, store, or transmit cardholder data (referred to as the cardholder data environment). Depending on how a healthcare provider has structured its network, the cardholder data environment could be very complex and large.
+
+Unlike HIPAA, PCI DSS requirements are administered and enforced on a contractual basis, and non-compliance is accordingly addressed through the contractual relationships. Fines for PCI DSS non-compliance may be assessed up to $500,000, which does not include legal fees, contractual liability, or lawsuits that typically accompany breaches of payment information.
+
+PCI DSS contractually assigns liability for breaches or other loss events among the respective parties in the payment chain. Where one or more parties in that chain fails to comply with PCI DSS and a loss or breach occurs, the card associations and the banks may suffer losses, which can then be passed down through the contractual relationships based on the parties that committed to compliance. For this reason, the extent of liability is more ambiguous then in a regulatory framework, but the consequences and expenses can be just as severe and unforgiving.
+
+Although HIPAA and PCI DSS are the most visible compliance frameworks for patient payments, healthcare providers should be aware of the other requirements, which arise under law or contract often based on the payment types available to a patient for payment. Other patient payment compliance frameworks include federal requirements such as Clearing for the 21st Century Act (Check 21) for check clearing, Office of Foreign Assets Control (OFAC) screening requirements, USA Patriot Act for “know your customer” requirements (i.e., anti-money laundering), National Automated Clearing House Association (NACHA) Operating Rules for ACH transactions, and a myriad of consumer protection and notification requirements. State laws may include separate requirements applicable to payment transactions as well.
+
+As should be abundantly clear, payment transactions come with unique and overlapping compliance obligations that are not typical in other aspects of a provider environment.
+
+### Operational Considerations in Addressing Compliance
+
+Receiving payments directly from patients poses obstacles unique to the healthcare industry, primarily for three reasons. First, the final amount a patient may be required to pay is frequently not known when the patient is present. Second, for many providers, the payments must be accounted for and tracked across more than one department or facility and even across separate practitioners. Third, payments  may  be unexpectedly high or may be paid by individuals other than the patient. Each of these obstacles slow the collection process and may make some payments uncollectable. Overcoming these obstacles in a way that minimizes business disruption and maximizes cash flow requires a specific appreciation for the nature of patient payments in the healthcare industry, all while ensuring compliance associated with the applicable payment types.
+
+As discussed above, the compliance requirements under HIPAA, PCI DSS, and other information privacy and security frameworks impose overlapping but distinct obligations. In other words, compliance with one framework is not sufficient for compliance with the others. Given the broad scope of liability, providers are seeking ways to reduce the burden of compliance.
+
+One of the primary ways healthcare providers reduce liability and the costs of compliance is through the reduction of exposure to sensitive payment transaction data in general. As to PCI DSS, exposure can be reduced through network segmentation, which involves separating payment systems from other systems of a healthcare provider through network design and architecture. Network segmentation allows a provider to focus its compliance efforts on the specific components of a payment system that are subject to PCI DSS requirements.
+
+In addition to internal segmentation initiatives, certain types of modern technologies  are emerging that enable a provider to reduce PCI DSS data compliance obligations relating to patient payments. One such technology is referred to within PCI DSS as Point-to-Point Encryption (P2PE). P2PE solutions are established pursuant to specific Payment Card Industry standards and are provided by a third party through a series of secure devices and software that encrypts sensitive payment card information from the point of interaction until the payment information reaches the secure environment of the payment processor or gateway.
+
+P2PE solutions reduce a healthcare provider’s responsibilities under PCI DSS by allocating the risk of failure on the service provider that facilitates the encryption services. P2PE solutions minimize the points of liability that would otherwise be the healthcare provider’s burden, namely the risk of fraud or error in the transmission of the payment information. In addition to allocating the liability  to a third party, the healthcare provider can save on the costs of continued monitoring and compliance that may be required without the encryption solutions. Adopting safeguards such as P2PE does not eliminate PCI DSS compliance obligations. For example, a healthcare provider would still be subject to PCI DSS requirements regarding physical access to the card information at the point of payment or transactional-level reports containing cardholder data.
+
+Healthcare providers can further reduce PCI DSS liability (as well as liability arising under other payment compliance requirements) by shifting the compliance obligations through contracts with payment solutions service providers. Engaging a qualified third party to perform—and take ownership of— specific functions involving PCI DSS and similar compliance requirements can be an efficient way to shift the obligations. These functions can include software licensing, device acquisition and maintenance, and data management. Contracts with third parties that assume a healthcare provider’s compliance obligations should identify the services the third party performs, designate which party carries the burden of compliance, and describe the consequences for non-compliance. Service providers that are not familiar with healthcare regulatory requirements may not understand or appreciate the stringent response requirements, sophisticated safeguards, or business considerations that are fundamental in the healthcare industry.
+
+In addition to good contracting practices, providers should be aware that certain compliance frameworks may mandate specific contractual terms such as representations or other provisions. For example, under HIPAA, where a business associate relationship exists, a provider should ensure that an effective, compliant business associate agreement is in place with the service provider. For contracts relating to payment processing services, the acquiring banks, card associations, or other parties in the payment chain may require certain monitoring or contractual obligations as a condition of shifting liability under the applicable compliance frameworks.
+
+### Key Aspects of a Healthy Compliance Program
+
+The trend of shifting payment obligations directly to the patient is accompanied by increased scrutiny by regulators, industry parties, and actors seeking to exploit non-compliant or weak systems. The best practices described below are pivotal aspects of a healthy compliance program for patient payments:
+
+* Understand the full scope of compliance activities associated with patient payments, including HIPAA, PCI DSS, and other compliance frameworks
+* Evaluate ways to reduce exposure (and associated liability) under these frameworks including adoption of enhanced network safeguards and other de-scoping strategies
+* Engage knowledgeable service providers that take compliance activities
+* Adopt a process to routinely monitor service providers to be reasonably aware of operational competence
+* Continually re-evaluate the scope of compliance and adopt new strategies or safeguards to militate against the risks of non-compliance or breach
+
+### Conclusion
+
+Accepting patient payments in the modern healthcare delivery system brings about significant operational considerations that must be addressed within the confines of stringent data privacy and security requirements. Given the number of transactions and the associated exposure to regulatory and contractual liability, healthcare providers should ensure that their compliance practices extend to the adoption and implementation of a system to accept patient payments.
+
+<p class="small">Joseph Conn: “Banner Health cyberattack impacts 3.7 million people” Modern Healthcare; August 3, 2016. Available at http://bit.ly/2oOpLXy</p>
+<p class="small">view HCC Compliance Today Magazine here http://bit.ly/2sLNOXh</p>
