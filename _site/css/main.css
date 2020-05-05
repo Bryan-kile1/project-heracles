@@ -2753,9 +2753,15 @@ h3 { font-size: 2.5rem; line-height: 2.75rem; color: #3F2A5F; }
 
 h4 { font-size: 2rem; line-height: 2.25rem; color: #77C8AE; }
 
+@media (max-width: 991.98px) { h4 { font-size: 1.4rem; line-height: 2rem; } }
+
 h5 { font-size: 1.5rem; line-height: 1.75rem; color: #E48167; }
 
+@media (max-width: 991.98px) { h5 { font-size: 1.2rem; line-height: 2rem; } }
+
 p { font-size: 1.5rem; font-family: lato, sans-serif; font-weight: 300; color: #58595B; line-height: 2rem; margin-bottom: 35px; }
+
+@media (max-width: 991.98px) { p { font-size: 1.25rem; line-height: 1.5rem; } }
 
 p span { font-weight: 600; }
 
@@ -4570,6 +4576,18 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 @media (max-width: 991.98px) { #homeProductPreview .container-fluid p { margin-bottom: 35px; } }
 
+#homepageTrustInto { background: url(../img/home/trustBackground.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+#homepageTrustInto .col-sm-4 { background-color: #fff; border-radius: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
+
+.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
+
+#preFooterCTA { margin-top: -35px; margin-bottom: 17.5px; }
+
+@media (max-width: 991.98px) { #preFooterCTA { margin-top: 0; } }
+
+#preFooterCTA h4, #preFooterCTA p { color: #F8F8F9; }
+
 #preFooterCTA p { margin: 35px auto; }
 
 @media (max-width: 767.98px) { #preFooterCTA form input { display: block; margin-right: 0; margin-bottom: 35px; width: 100%; }
@@ -4581,9 +4599,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #preFooterCTA form input[type="submit"] { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; background-color: #77C8AE; padding: 17.5px 35px; box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); transition: all 0.25s ease; max-width: 50%; margin: 0px auto; border: none !important; }
 
-#preFooterCTA form input[type="submit"]:hover { background-color: #161839; text-decoration: none; border: none !important; }
-
-.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
+#preFooterCTA form input[type="submit"]:hover { background-color: #65A798; text-decoration: none; border: none !important; }
 
 footer { background: #3f2a5f; background: linear-gradient(180deg, #3f2a5f 0%, #161839 100%); }
 
