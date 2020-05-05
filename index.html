@@ -17,8 +17,25 @@ image: https://projectheracles.netlify.com//img/home/ogImage.jpg
 			<div class="col-md" id="homeHeroContent">
 				<h1>Better Technology. <span>Happier Patients.</span></h1>
 				<p>Healthcare is complex. Patient billing and payments shouldn't have to be.</p>
-				<a class="sButtonTransparent">Learn More</a>
-				<a class="sButton">Request Demo</a>
+				<a class="sButtonTransparent video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/FdKJVD7coBs" data-target="#myModal">Learn More</a>
+				<a class="sButton" href="{{ site.baseurl }}/contact/get-started/">Request Demo</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>        
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
