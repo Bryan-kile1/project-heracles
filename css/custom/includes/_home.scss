@@ -121,10 +121,14 @@
 	-o-background-size: cover;
 	background-size: cover;
 
-	.col-sm-4 {
-		background-color: #fff;
-		border-radius: $borderRadius;
-		box-shadow: $boxShadow;
+	.securityImage {
+		padding: 0 $gutter;
+		text-align: center;
+
+		img {
+			// max-width: 70%;
+			margin: 0px auto;
 		}
+	}
 
 }
