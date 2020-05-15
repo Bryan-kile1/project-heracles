@@ -1,0 +1,39 @@
+#companyMetrics {
+
+	text-align: center;
+	margin: 0px auto;
+
+	img {
+		max-width: 50%;
+		text-align: center;
+		margin: $gutter/2 auto;
+	}
+
+	h5 {
+		color: $grey;
+	}
+
+}
+
+#leadershipTeam {
+
+	.row {
+		margin-bottom: $gutter;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	h5 {
+		color: $primary;
+		margin-top: $gutter;
+		margin-bottom: $gutter/3;
+	}
+
+	h6 {
+		color: $secondary;
+		margin-bottom: $gutter/2;
+	}
+
+}
