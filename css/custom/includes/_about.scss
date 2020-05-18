@@ -1,3 +1,5 @@
+// About Page
+
 #aboutHero {
 	background: url(../img/about/hero.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
@@ -21,4 +23,31 @@
 	-o-background-size: cover;
 	background-size: cover;
 	padding: $gutter*2 0;
+}
+
+// Security and Compliance Page
+
+#securityAndComplianceHero {
+	background: url(../img/about/securityHero.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: $gutter*5 0;
+	margin-bottom: $gutter;
+
+	h1 {
+		color: $white;
+	}
+
+}
+
+#certifications {
+
+	.col-3 {
+		img {
+			max-width: 75%;
+		}
+	}
+
 }
