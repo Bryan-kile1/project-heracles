@@ -1,0 +1,98 @@
+// Standard Form Styles
+
+input, textarea {
+	border: none;
+	box-shadow: $boxShadow;
+	padding: $gutter/2 $gutter/2;
+	border-radius: $borderRadius;
+	width: 95%;
+	margin-bottom: $gutter;
+
+	&:focus {
+		box-shadow: $boxShadowBig;
+		outline: none;
+	}
+}
+
+textarea {
+	height: $gutter*3;
+}
+
+input[type="submit"] {
+	text-decoration: none;
+	color: $white !important;
+	border-radius: 35px;
+	background-color: $secondary;
+	padding: $gutter/2 $gutter;
+	box-shadow: $boxShadowBig;
+	transition: $transition;
+	width: auto;
+	margin: 0px auto;
+	border: none !important;
+
+	&:hover {
+		background-color: $primary;
+		text-decoration: none;
+		border: none !important;
+	}
+
+}
+
+// /contact/support/
+
+#supportHero {
+	
+	padding-top: $gutter*2;
+
+	select#type {
+		display: none;
+	}
+
+}
+
+// /contact/request-demo
+
+#requestDemo {
+
+	padding-top: $gutter;
+
+	span {
+		color: $primary;
+	}
+
+	form {
+
+		input#firstname, input#lastname {
+			display: inline;
+			width: 45%;
+		}
+
+		input#firstname {
+			margin-right: $gutter;
+		}
+
+		@include media-breakpoint-down(md) {
+
+			input#firstname, input#lastname {
+				width: 95%;
+				display: inline-block;
+				margin-right: 0;
+			}
+		}
+	}
+
+	hr.preCopySection {
+		border: 0;
+		border-bottom: 3px solid $secondary;
+		width: 25%;
+		text-align: left;
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: $gutter/2;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+}

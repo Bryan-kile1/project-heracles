@@ -1,0 +1,47 @@
+---
+layout: default
+title: Salucro Healthcare Solutions | Better Technology. Happier Patients.
+description: Salucro is a healthcare technology company, exclusively focused on patient payments. From online bill pay solutions to provider-facing payment integrations, the Salucro platform brings cohesive payment experiences to healthcare providers, patients, and third-party collection agencies.
+image: https://projectheracles.netlify.com/img/home/ogImage.jpg
+---
+
+<div class="container" id="supportHero">
+	<div class="row">
+		<div class="col-md">
+			<h1>Salucro Patient Payment and Provider <span>Support</span></h1>
+			<p>Salucro provides technology solutions that make it easy to collect patient payments, while providing patients with the best financial experience throughout the process. If you’re having trouble making a patient payment, or need support with your provider portal, please fill out the form below to get in touch with a member of our support team.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md">
+			<!--  ----------------------------------------------------------------------  -->
+			<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+			<!--  If necessary, please modify the charset parameter to specify the        -->
+			<!--  character set of your HTML page.                                        -->
+			<!--  ----------------------------------------------------------------------  -->
+			<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+			<!--  ----------------------------------------------------------------------  -->
+			<!--  NOTE: Please add the following <FORM> element to your page.             -->
+			<!--  ----------------------------------------------------------------------  -->
+			<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+			    <input type=hidden name="orgid" value="00D1I000003HRbP">
+			    <input type=hidden name="retURL" value="https://www.salucro.com/home/thank-you/">
+			    <!--  ----------------------------------------------------------------------  -->
+			    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+			    <!--  these lines if you wish to test in debug mode.                          -->
+			    <!--  <input type="hidden" name="debug" value=1>                              -->
+			    <!--  <input type="hidden" name="debugEmail" value="jsheeley@salucro.com">    -->
+			    <!--  ----------------------------------------------------------------------  -->
+			    <input  id="name" maxlength="80" name="name" size="20" type="text" placeholder="Name" /><br>
+			    <input  id="email" maxlength="80" name="email" size="20" type="text" placeholder="Email" /><br>
+			    <input  id="phone" maxlength="40" name="phone" size="20" type="text" placeholder="Phone" /><br>
+			    <select  id="type" name="type" style="width: 100%; margin-bottom: 40px;">
+			        <option value="Technical Support">Technical Support</option>
+			    </select>
+			    <textarea name="description" placeholder="How Can We Help?"></textarea>
+			    <br>
+			    <input type="submit" name="submit">
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+// News and Press Page
+
+#pressHero {
+	margin-top: $gutter*2;
+	margin-bottom: $gutter;
+}
+
+#pressListings {
+
+	ul {
+
+		margin: 0;
+		padding: 0;
+		
+		li {
+			margin-top: 0 !important;
+			display: inline-block;
+			list-style: none;
+			background-color: white;
+			border-radius: $borderRadius;
+			box-shadow: $boxShadow;
+			text-align: left;
+			padding: $gutter/2 $gutter $gutter $gutter;
+			width: 100%;
+
+			h5 {
+				color: $primary;
+				padding: 0;
+				margin: 0;
+			}
+
+			p.small {
+				color: $grey;
+				padding: 0;
+				margin: 0;
+				margin-bottom: $gutter/2;
+			}
+
+		}
+
+	}
+
+}
