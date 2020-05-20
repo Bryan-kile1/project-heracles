@@ -41,3 +41,69 @@
 	}
 
 }
+
+// Reports and Whitepapers
+
+#reportsAndWhitepapersHero {
+	background: url(../img/content-and-resources/contentDownloadsHero.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: $gutter*3 0;
+	margin-bottom: $gutter;
+
+	h1 {
+		color: $white;
+		text-shadow: $textShadow;
+	}
+
+}
+
+.tiles {
+
+	margin: 0px auto;
+	text-align: center;
+
+	.tile {
+		width: 95%;
+		background-color: white;
+		box-shadow: $boxShadow;
+		border-radius: 7px;
+		padding-bottom: $gutter;
+		margin-bottom: $gutter;
+
+		&:hover {
+			box-shadow: $boxShadowBig;
+		}
+
+		img {
+			max-width: 100%;
+			margin-bottom: $gutter/2;
+			border-radius: 7px 7px 0px 0px;
+		}
+
+		h4 {
+			color: $primaryDark;
+			font-weight: $heavy;
+			margin-bottom: 0;
+		}
+
+		&.tilePrimary {
+			background: $primaryTransparent;
+			background: linear-gradient(40deg, $primaryTransparent 0%, $secondaryTransparent 100%);
+		}
+
+		&.tileSecondary {
+			background: $secondaryTransparent;
+			background: linear-gradient(40deg, $secondaryTransparent 0%, $tertiary 100%);
+		}
+
+		&.tileTertiary {
+			background: $tertiaryTransparent;
+			background: linear-gradient(40deg, $tertiaryTransparent 0%, $primaryTransparent 100%);
+		}
+
+	}
+
+}

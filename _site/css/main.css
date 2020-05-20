@@ -3000,6 +3000,26 @@ footer #footerBottom p { color: rgba(248, 248, 249, 0.45); }
 
 #pressListings ul li p.small { color: #58595B; padding: 0; margin: 0; margin-bottom: 17.5px; }
 
+#reportsAndWhitepapersHero { background: url(../img/content-and-resources/contentDownloadsHero.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 105px 0; margin-bottom: 35px; }
+
+#reportsAndWhitepapersHero h1 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
+
+.tiles { margin: 0px auto; text-align: center; }
+
+.tiles .tile { width: 95%; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); border-radius: 7px; padding-bottom: 35px; margin-bottom: 35px; }
+
+.tiles .tile:hover { box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); }
+
+.tiles .tile img { max-width: 100%; margin-bottom: 17.5px; border-radius: 7px 7px 0px 0px; }
+
+.tiles .tile h4 { color: #161839; font-weight: 600; margin-bottom: 0; }
+
+.tiles .tile.tilePrimary { background: rgba(63, 42, 95, 0.25); background: linear-gradient(40deg, rgba(63, 42, 95, 0.25) 0%, rgba(119, 200, 174, 0.25) 100%); }
+
+.tiles .tile.tileSecondary { background: rgba(119, 200, 174, 0.25); background: linear-gradient(40deg, rgba(119, 200, 174, 0.25) 0%, #E48167 100%); }
+
+.tiles .tile.tileTertiary { background: rgba(228, 129, 103, 0.25); background: linear-gradient(40deg, rgba(228, 129, 103, 0.25) 0%, rgba(63, 42, 95, 0.25) 100%); }
+
 #aboutHero { background: url(../img/about/hero.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 175px 0; margin-bottom: 35px; }
 
 #aboutHero h1 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
