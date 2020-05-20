@@ -2984,6 +2984,12 @@ footer #footerBottom { padding-bottom: 52.5px; margin: 0px; }
 
 footer #footerBottom p { color: rgba(248, 248, 249, 0.45); }
 
+footer #footerBottom a { color: rgba(248, 248, 249, 0.45); }
+
+footer #footerBottom a:hover { color: #F8F8F9; }
+
+footer #footerBottom .fa-linkedin-in { margin: 0 17.5px; }
+
 .terms { padding: 35px 0; }
 
 .terms ol, .terms ul, .terms p { padding-left: 35px; }
