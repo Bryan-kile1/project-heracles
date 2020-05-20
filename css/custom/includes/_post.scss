@@ -46,26 +46,6 @@ blockquote span {
   z-index: auto;
   position: relative;
 
-  #socialSharing {
-
-    margin-bottom: $gutter;
-
-    a {
-
-      color: $primaryTransparent;
-
-      &:hover {
-        color: $primary;
-      }
-
-    }
-
-    .fa-linkedin-in {
-      margin: 0 $gutter;
-    }
-
-  }
-
   p {
 
     strong {

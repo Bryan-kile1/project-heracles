@@ -2873,14 +2873,6 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #post { width: 90%; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); padding: 35px; margin-top: -210px; border-radius: 7px; z-index: auto; position: relative; }
 
-#post #socialSharing { margin-bottom: 35px; }
-
-#post #socialSharing a { color: rgba(63, 42, 95, 0.25); }
-
-#post #socialSharing a:hover { color: #3F2A5F; }
-
-#post #socialSharing .fa-linkedin-in { margin: 0 35px; }
-
 #post p strong { color: #3F2A5F; font-weight: 600; }
 
 #post p.small { color: #58595B; }
@@ -3101,6 +3093,14 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 #leadershipTeam h5 { color: #3F2A5F; margin-top: 35px; margin-bottom: 11.6666666667px; }
 
 #leadershipTeam h6 { color: #77C8AE; margin-bottom: 17.5px; }
+
+#goodCompany { padding-top: 105px; text-align: center; }
+
+#goodCompany .container .row { padding: 35px 0; }
+
+#goodCompany .container .row .col-md img { max-width: 100%; }
+
+@media (max-width: 991.98px) { #goodCompany .container .row .col-md img { margin-bottom: 35px; } }
 
 #homeHero { position: relative; padding: 70px 0; display: block; text-align: center; background-color: #F8F8F9; height: auto; width: 100%; overflow: hidden; background: url(../img/home/webHeroVideo.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 

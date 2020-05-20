@@ -37,3 +37,27 @@
 	}
 
 }
+
+#goodCompany {
+
+	padding-top: $gutter*3;
+	text-align: center;
+
+	.container {
+		.row {
+
+			padding: $gutter 0;
+
+			.col-md{
+				img {
+					max-width: 100%;
+
+					@include media-breakpoint-down(md) {
+						margin-bottom: $gutter;
+					}
+				}
+			}
+		}
+	}
+
+}
