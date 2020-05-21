@@ -2941,6 +2941,28 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homepageTrustInto .securityImage img { margin: 0px auto; }
 
+#solutionsHero { background: url(../img/solutions/solutionsHero.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 105px 0; margin-bottom: 35px; }
+
+#solutionsHero h1 { color: #3F2A5F; }
+
+#solutionsOverview { text-align: center; margin-bottom: -70px; }
+
+#solutionsOverview .col-md { padding: 17.5px; margin: 0 35px; margin-bottom: 35px; }
+
+#solutionsOverview .col-md h5 { color: #3F2A5F; }
+
+#solutionsOverview .col-md img, #solutionsOverview .col-md svg { margin-bottom: 17.5px; max-width: 100px; max-height: 60px; }
+
+#solutionsOverview .col-md h5 { margin-bottom: 17.5px; font-weight: 600; color: #65A798; }
+
+#solutionsOverview .col-md p { margin-bottom: 17.5px; }
+
+#solutionsOverview .col-md a { text-decoration: none; }
+
+#solutionsOverview .col-md a:hover { text-decoration: none; }
+
+#patientPayments { padding: 105px 0; }
+
 .waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
 
 #preFooterCTA { margin-top: -35px; margin-bottom: 17.5px; }

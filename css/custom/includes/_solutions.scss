@@ -1,0 +1,63 @@
+
+#solutionsHero {
+	background: url(../img/solutions/solutionsHero.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: $gutter*3 0;
+	margin-bottom: $gutter;
+
+	h1 {
+		color: $primary;
+	}
+
+}
+
+#solutionsOverview {
+
+	text-align: center;
+	margin-bottom: -$gutter*2;
+
+	.col-md {
+		padding: $gutter/2;
+		margin: 0 $gutter;
+		margin-bottom: $gutter;
+
+		h5 {
+			color: $primary;
+		}
+
+		img, svg {
+			margin-bottom: $gutter/2;
+			max-width: 100px;
+			max-height: 60px;
+		}
+
+		h5 {
+			margin-bottom: $gutter/2;
+			font-weight: $heavy;
+			color: $secondaryDark;
+		}
+
+		p {
+			margin-bottom: $gutter/2;
+		}
+
+		a {
+
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+		}
+
+	}
+
+}
+
+#patientPayments {
+	padding: $gutter*3 0;
+}
