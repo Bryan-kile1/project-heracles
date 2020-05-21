@@ -59,5 +59,95 @@
 }
 
 #patientPayments {
-	padding: $gutter*3 0;
+
+	padding-top: $gutter*3;
+
+	.container-fluid {
+		margin: 0;
+		padding: 0;
+	}
+
+	#advancedPatientEngagement {
+
+		margin-top: -$gutter;
+
+		.container-fluid {
+			margin-top: -3px;
+			background: $secondary;
+			background: linear-gradient(180deg, $secondary 0%, $secondaryDark 100%);
+		}
+
+		h4 {
+			color: $white;
+			margin-top: $gutter*2;
+		}
+
+		p {
+			color: $white;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+	}
+
 }
+
+#patientPaymentTypes {
+
+	h4 {
+		font-weight: $heavy;
+		margin-top: $gutter/2;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+}
+
+#providerSolutions {
+
+	margin-top: $gutter*2;
+
+	#streamlinedWorkflows {
+
+		padding-top: $gutter;
+
+		h4 {
+			margin-top: $gutter;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+	}
+
+}
+
+#seamlessIntegrations {
+
+	#EHRIntegrationsList {
+
+		.row {
+			margin-bottom: $gutter*2;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

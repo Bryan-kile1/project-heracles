@@ -32,6 +32,11 @@ body,html {
 
 a {
 	transition: $transition;
+	color: $secondaryDark;
+
+	&:hover {
+		color: $secondary;
+	}
 }
 
 img {

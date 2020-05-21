@@ -2961,7 +2961,35 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #solutionsOverview .col-md a:hover { text-decoration: none; }
 
-#patientPayments { padding: 105px 0; }
+#patientPayments { padding-top: 105px; }
+
+#patientPayments .container-fluid { margin: 0; padding: 0; }
+
+#patientPayments #advancedPatientEngagement { margin-top: -35px; }
+
+#patientPayments #advancedPatientEngagement .container-fluid { margin-top: -3px; background: #77C8AE; background: linear-gradient(180deg, #77C8AE 0%, #65A798 100%); }
+
+#patientPayments #advancedPatientEngagement h4 { color: #F8F8F9; margin-top: 70px; }
+
+#patientPayments #advancedPatientEngagement p { color: #F8F8F9; }
+
+#patientPayments #advancedPatientEngagement img { max-width: 100%; }
+
+#patientPaymentTypes h4 { font-weight: 600; margin-top: 17.5px; }
+
+#patientPaymentTypes img { max-width: 100%; }
+
+#providerSolutions { margin-top: 70px; }
+
+#providerSolutions #streamlinedWorkflows { padding-top: 35px; }
+
+#providerSolutions #streamlinedWorkflows h4 { margin-top: 35px; }
+
+#providerSolutions #streamlinedWorkflows img { max-width: 100%; }
+
+#seamlessIntegrations #EHRIntegrationsList .row { margin-bottom: 70px; }
+
+#seamlessIntegrations #EHRIntegrationsList img { max-width: 100%; }
 
 .waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
 
@@ -3145,7 +3173,9 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 
 body, html { color: #58595B; background-color: #F8F8F9; margin: 0; }
 
-a { transition: all 0.25s ease; }
+a { transition: all 0.25s ease; color: #65A798; }
+
+a:hover { color: #77C8AE; }
 
 img { pointer-events: none; }
 
