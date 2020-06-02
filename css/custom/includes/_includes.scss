@@ -1,20 +1,3 @@
-#companyMetrics {
-
-	text-align: center;
-	margin: 0px auto;
-
-	img {
-		max-width: 50%;
-		text-align: center;
-		margin: $gutter/2 auto;
-	}
-
-	h5 {
-		color: $grey;
-	}
-
-}
-
 #leadershipTeam {
 
 	.row {
@@ -58,6 +41,25 @@
 				}
 			}
 		}
+	}
+
+}
+
+#patientPaymentReportOne {
+
+	background-color: $primary;
+
+	.left {
+		background-color: $primary;
+
+		h2 {
+			color: $white;
+			text-shadow: $textShadow;
+		}
+	}
+
+	.right {
+		background: linear-gradient(90deg, $primary 0%, $primary 100%);
 	}
 
 }

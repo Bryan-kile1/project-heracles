@@ -19,6 +19,37 @@
 	opacity: 1;
 }
 
+#reportCTA {
+
+	background: $primary;
+	background: linear-gradient(42deg, $primary 0%, $primaryDark 66%);
+	text-align: center;
+
+	.col-md {
+
+		padding: 0 $gutter*2;
+
+	}
+
+	#reportStat {
+
+		h2, p {
+			color: $white;
+		}
+
+		h2 {
+			font-size: 172px;
+			line-height: 200px;
+		}
+	}
+
+	#reportCopy {
+		padding: $gutter*3 0;
+		background-color: $white;
+		margin-right: -$gutter*2;
+	}
+}
+
 #homeSolutionsIntro {
 
 	margin-top: $gutter*1.75;
@@ -40,7 +71,6 @@
 		padding: $gutter/2;
 		margin: 0 $gutter;
 		margin-bottom: $gutter;
-
 
 		&#homeSolutionsPatients {
 			h5 {
@@ -92,14 +122,12 @@
 
 #homeProductPreview {
 
-	svg {
-		display: block;
-	}
+	margin: $gutter*3 auto;
 
 	.container-fluid {
-		margin-top: -1px;
-		background: rgb(119,200,174);
-		background: linear-gradient(180deg, rgba(119,200,174,1) 0%, rgba(101,167,152,1) 50%);
+		padding: $gutter*2.5 0;
+		background: $secondary;
+		background: linear-gradient(40deg, $secondary 0%, $secondaryDark 50%);
 
 		h3, p {
 			color: $white;

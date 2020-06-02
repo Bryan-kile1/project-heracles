@@ -2781,6 +2781,18 @@ hr.salucro { margin: 0 !important; padding: 0 !important; margin-bottom: 17.5px 
 
 .sButton.disabled { opacity: .25; }
 
+.sButton.sButtonPrimary { background-color: #3F2A5F; }
+
+.sButton.sButtonPrimary:hover { background-color: #161839; }
+
+.sButton.sButtonSecondary { background-color: #77C8AE; }
+
+.sButton.sButtonSecondary:hover { background-color: #65A798; }
+
+.sButton.sButtonTertiary { background-color: #E48167; }
+
+.sButton.sButtonTertiary:hover { background-color: #DF6E4E; }
+
 .sButtonTransparent { text-decoration: none; color: #F8F8F9 !important; border-radius: 35px; border: 3px solid #77C8AE; background-color: none; padding: 7px 17.5px; transition: all 0.25s ease; max-width: 75%; margin: 0px auto; }
 
 .sButtonTransparent:hover { background-color: #65A798; border-color: #65A798; }
@@ -2903,6 +2915,16 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 .close { position: absolute; right: -30px; top: 0; z-index: 999; font-size: 2rem; font-weight: normal; color: #fff; opacity: 1; }
 
+#reportCTA { background: #3F2A5F; background: linear-gradient(42deg, #3F2A5F 0%, #161839 66%); text-align: center; }
+
+#reportCTA .col-md { padding: 0 70px; }
+
+#reportCTA #reportStat h2, #reportCTA #reportStat p { color: #F8F8F9; }
+
+#reportCTA #reportStat h2 { font-size: 172px; line-height: 200px; }
+
+#reportCTA #reportCopy { padding: 105px 0; background-color: #F8F8F9; margin-right: -70px; }
+
 #homeSolutionsIntro { margin-top: 61.25px; }
 
 #homeSolutionsIntro h3, #homeSolutionsIntro p { text-align: center; }
@@ -2927,9 +2949,9 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #homeSolutions .col-md a:hover { text-decoration: none; }
 
-#homeProductPreview svg { display: block; }
+#homeProductPreview { margin: 105px auto; }
 
-#homeProductPreview .container-fluid { margin-top: -1px; background: #77c8ae; background: linear-gradient(180deg, #77c8ae 0%, #65a798 50%); }
+#homeProductPreview .container-fluid { padding: 87.5px 0; background: #77C8AE; background: linear-gradient(40deg, #77C8AE 0%, #65A798 50%); }
 
 #homeProductPreview .container-fluid h3, #homeProductPreview .container-fluid p { color: #F8F8F9; }
 
@@ -2965,7 +2987,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #patientPayments .container-fluid { margin: 0; padding: 0; }
 
-#patientPayments #advancedPatientEngagement { margin-top: -35px; }
+#patientPayments #advancedPatientEngagement { margin: 52.5px 0; }
 
 #patientPayments #advancedPatientEngagement .container-fluid { margin-top: -3px; background: #77C8AE; background: linear-gradient(180deg, #77C8AE 0%, #65A798 100%); }
 
@@ -2991,9 +3013,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #seamlessIntegrations #EHRIntegrationsList img { max-width: 100%; }
 
-.waveContainer svg { display: block; margin: 0; padding: 0; width: 100% !important; object-fit: cover; margin-bottom: -1px; }
-
-#preFooterCTA { margin-top: -35px; margin-bottom: 17.5px; }
+#preFooterCTA { margin-top: 35px; padding-top: 52.5px; margin-bottom: 17.5px; }
 
 @media (max-width: 991.98px) { #preFooterCTA { margin-top: 0; } }
 
@@ -3012,7 +3032,7 @@ blockquote span { display: block; text-align: right; font-size: 24px; line-heigh
 
 #preFooterCTA form input[type="submit"]:hover { background-color: #65A798; text-decoration: none; border: none !important; }
 
-footer { background: #3f2a5f; background: linear-gradient(180deg, #3f2a5f 0%, #161839 100%); }
+footer { background: #161839; background: linear-gradient(180deg, #161839 0%, #231f20 100%); }
 
 footer .footerLogo { margin-top: 35px; margin-bottom: 8.75px; max-width: 150px; }
 
@@ -3088,6 +3108,8 @@ footer #footerBottom .fa-linkedin-in { margin: 0 17.5px; }
 
 #certifications .col-3 img { max-width: 75%; }
 
+#certifications h4 { color: #3F2A5F !important; }
+
 .twitter-tweet { margin: 0px auto; text-align: center; }
 
 .videoWrapper { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; margin-top: 17.5px; margin-bottom: 17.5px; }
@@ -3122,6 +3144,8 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 
 #requestDemo img { max-width: 100%; }
 
+#contentDownloadsGoodCompany { margin-bottom: 0; padding-bottom: 0; }
+
 .thankYouHero { background: url(../img/contact/thank-you/generalHero.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-bottom: 35px; padding: 105px 0; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
 
 .thankYouHero h1, .thankYouHero p { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
@@ -3129,12 +3153,6 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 .thankYouHero p { color: #F8F8F9; }
 
 .recommendedContent { text-align: center; }
-
-#companyMetrics { text-align: center; margin: 0px auto; }
-
-#companyMetrics img { max-width: 50%; text-align: center; margin: 17.5px auto; }
-
-#companyMetrics h5 { color: #58595B; }
 
 #leadershipTeam .row { margin-bottom: 35px; }
 
@@ -3151,6 +3169,14 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 #goodCompany .container .row .col-md img { max-width: 100%; }
 
 @media (max-width: 991.98px) { #goodCompany .container .row .col-md img { margin-bottom: 35px; } }
+
+#patientPaymentReportOne { background-color: #3F2A5F; }
+
+#patientPaymentReportOne .left { background-color: #3F2A5F; }
+
+#patientPaymentReportOne .left h2 { color: #F8F8F9; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35); }
+
+#patientPaymentReportOne .right { background: linear-gradient(90deg, #3F2A5F 0%, #3F2A5F 100%); }
 
 #homeHero { position: relative; padding: 70px 0; display: block; text-align: center; background-color: #F8F8F9; height: auto; width: 100%; overflow: hidden; background: url(../img/home/webHeroVideo.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 

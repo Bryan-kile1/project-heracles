@@ -1,17 +1,6 @@
-.waveContainer {
-	svg {
-		display: block;
-		margin: 0;
-		padding: 0;
-		width: 100% !important;
-		object-fit: cover;
-		margin-bottom: -1px;
-	}
-}
-
 #preFooterCTA {
-
-	margin-top: -$gutter;
+	margin-top: $gutter;
+	padding-top: $gutter*1.5;
 	margin-bottom: $gutter/2;
 
 	@include media-breakpoint-down(md) {
@@ -82,8 +71,8 @@
 
 footer {
 
-	background: rgb(63,42,95);
-	background: linear-gradient(180deg, rgba(63,42,95,1) 0%, rgba(22,24,57,1) 100%);
+	background: $primaryDark;
+	background: linear-gradient(180deg, $primaryDark 0%, $black 100%);
 
 	.footerLogo {
 		margin-top: $gutter;

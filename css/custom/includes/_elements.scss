@@ -28,6 +28,30 @@ hr.salucro {
 		opacity: .25;
 	}
 
+	&.sButtonPrimary {
+		background-color: $primary;
+
+		&:hover {
+			background-color: $primaryDark;
+		}
+	}
+
+	&.sButtonSecondary {
+		background-color: $secondary;
+
+		&:hover {
+			background-color: $secondaryDark;
+		}
+	}
+
+	&.sButtonTertiary {
+		background-color: $tertiary;
+
+		&:hover {
+			background-color: $tertiaryDark;
+		}
+	}
+
 }
 
 .sButtonTransparent {
