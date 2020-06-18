@@ -3116,9 +3116,11 @@ footer #footerBottom .fa-linkedin-in { margin: 0 17.5px; }
 
 .videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-input, textarea { border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); padding: 17.5px 17.5px; border-radius: 7px; width: 95%; margin-bottom: 35px; }
+input, textarea, select { border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); padding: 17.5px 17.5px; border-radius: 7px; width: 95%; margin-bottom: 35px; color: #58595B; }
 
-input:focus, textarea:focus { box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); outline: none; }
+input:focus, textarea:focus, select:focus { box-shadow: 2px 6px 8px 2px rgba(0, 0, 0, 0.15); outline: none; }
+
+.select-selected:after { position: absolute; content: ""; top: 14px; right: 10px; width: 0; height: 0; border: 6px solid transparent; border-color: red transparent transparent transparent; }
 
 textarea { height: 105px; }
 
@@ -3134,11 +3136,11 @@ input[type="submit"]:hover { background-color: #3F2A5F; text-decoration: none; b
 
 #requestDemo span { color: #3F2A5F; }
 
-#requestDemo form input#firstname, #requestDemo form input#lastname { display: inline; width: 45%; }
+#requestDemo form input[type="text"], #requestDemo form select { display: inline; width: 45%; }
 
-#requestDemo form input#firstname { margin-right: 35px; }
+#requestDemo form input#firstname, #requestDemo form input#email, #requestDemo form input#jobtitle { margin-right: 35px; }
 
-@media (max-width: 991.98px) { #requestDemo form input#firstname, #requestDemo form input#lastname { width: 95%; display: inline-block; margin-right: 0; } }
+@media (max-width: 991.98px) { #requestDemo form input, #requestDemo form select { width: 95%; display: inline-block; margin-right: 0; } }
 
 #requestDemo hr.preCopySection { border: 0; border-bottom: 3px solid #77C8AE; width: 25%; text-align: left; margin-left: 0; margin-top: 0; margin-bottom: 17.5px; }
 

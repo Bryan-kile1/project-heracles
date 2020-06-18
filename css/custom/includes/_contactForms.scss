@@ -1,17 +1,29 @@
 // Standard Form Styles
 
-input, textarea {
+input, textarea, select {
 	border: none;
 	box-shadow: $boxShadow;
 	padding: $gutter/2 $gutter/2;
 	border-radius: $borderRadius;
 	width: 95%;
 	margin-bottom: $gutter;
+	color: $grey;
 
 	&:focus {
 		box-shadow: $boxShadowBig;
 		outline: none;
 	}
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: red transparent transparent transparent;
 }
 
 textarea {
@@ -62,18 +74,18 @@ input[type="submit"] {
 
 	form {
 
-		input#firstname, input#lastname {
+		input[type="text"], select {
 			display: inline;
 			width: 45%;
 		}
 
-		input#firstname {
+		input#firstname, input#email, input#jobtitle {
 			margin-right: $gutter;
 		}
 
 		@include media-breakpoint-down(md) {
 
-			input#firstname, input#lastname {
+			input, select {
 				width: 95%;
 				display: inline-block;
 				margin-right: 0;
